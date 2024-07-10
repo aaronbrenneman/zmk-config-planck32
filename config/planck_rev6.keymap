@@ -70,14 +70,9 @@
             key-positions = <10 22>;
         };
 
-        cmb_q {
+        cb_q {
             bindings = <&kp Q>;
             key-positions = <1 12>;
-        };
-
-        cmb_p {
-            bindings = <&kp P>;
-            key-positions = <10 23>;
         };
     };
 
@@ -87,8 +82,8 @@
         _bas {
             bindings = <
 &none  &kp W  &kp E  &kp R  &kp T      &none  &none  &kp Y      &kp U  &kp I      &kp O    &none
-&kp A  &kp S  &kp D  &kp F  &kp G      &none  &none  &kp H      &kp J  &kp K      &kp L    &kp SEMI
-&kp Z  &kp X  &kp C  &kp V  &kp B      &none  &none  &kp N      &kp M  &kp COMMA  &kp DOT  &kp BSPC
+&kp A  &kp S  &kp D  &kp F  &kp G      &none  &none  &kp H      &kp J  &kp K      &kp L    &kp P
+&kp Z  &kp X  &kp C  &kp V  &kp B      &none  &none  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMI
 &none  &none  &none  &mo 2  &kp SPACE  &none  &none  &kp LSHFT  &mo 1  &none      &none    &none
             >;
         };
