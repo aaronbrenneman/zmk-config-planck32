@@ -99,9 +99,9 @@
 
         _nav {
             bindings = <
-&none      &kp TILDE  &kp PIPE   &kp GRAVE  &none   &none  &none  &none   &kp PG_UP  &kp UP    &kp PG_DN  &none
-&kp EXCL   &kp AT     &kp PRCNT  &kp POUND  &none   &none  &none  &none   &kp LEFT   &kp DOWN  &kp RIGHT  &none
-&kp QMARK  &kp CARET  &kp DLLR   &kp AMPS   &none   &none  &none  &none   &kp HOME   &none     &kp END    &none
+&none      &kp TILDE  &kp GRAVE  &kp PIPE   &none   &none  &none  &none   &kp PG_UP  &kp UP    &kp PG_DN  &none
+&kp EXCL   &kp AT     &kp POUND  &kp DLLR   &none   &none  &none  &none   &kp LEFT   &kp DOWN  &kp RIGHT  &none
+&kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  &none   &none  &none  &none   &kp HOME   &none     &kp END    &none
 &none      &none      &none      &trans     &trans  &none  &none  &trans  &trans     &none     &none      &none
             >;
         };
