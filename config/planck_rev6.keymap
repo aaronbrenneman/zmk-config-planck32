@@ -12,7 +12,7 @@
 
         cb_del {
             bindings = <&kp DEL>;
-            key-positions = <9 10>;
+            key-positions = <40 43>;
         };
 
         cb_cntl {
@@ -37,7 +37,7 @@
 
         cb_bkspc {
             bindings = <&kp BSPC>;
-            key-positions = <43 40>;
+            key-positions = <10 9>;
         };
 
         cb_lbkt {
@@ -92,7 +92,7 @@
             bindings = <
 &none  &kp N6  &kp N5  &kp N4  &kp ESC  &none  &none  &none   &kp BSLH  &kp STAR   &kp FSLH   &none
 &none  &kp N3  &kp N2  &kp N1  &kp N0   &none  &none  &none   &kp SQT   &kp UNDER  &kp MINUS  &none
-&none  &kp N9  &kp N8  &kp N7  &kp DOT  &none  &none  &none   &kp DQT   &kp EQUAL  &kp PLUS   &none
+&none  &kp N9  &kp N8  &kp N7  &kp DOT  &none  &none  &none   &kp DQT   &kp EQUAL  &kp PLUS   &mo 3
 &none  &none   &none   &trans  &trans   &none  &none  &trans  &trans    &none      &none      &none
             >;
         };
