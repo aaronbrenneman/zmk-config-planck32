@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
   _bas: [Q, W, E, R, T, '', '', Y, U, I, O, P, A, S, D, F, G, '', '', H, J, K, L, ;, Z, X, C, V, B, '', '', N, M, ',', ., BSPC, '', '', '', _sym, SPACE, '', '', LSHFT,
-    _nav, '', '', '']
+    _num, '', '', '']
   _sym:
   - '~'
   - ''
@@ -51,7 +51,7 @@ layers:
   - ''
   - ''
   - ''
-  _nav:
+  _num:
   - ''
   - '6'
   - '5'
@@ -64,11 +64,10 @@ layers:
   - '-'
   - /
   - +
-  - ''
-  - '0'
   - '3'
   - '2'
   - '1'
+  - '0'
   - ''
   - ''
   - ''
@@ -76,8 +75,8 @@ layers:
   - '"'
   - _
   - ''
-  - '*'
   - ''
+  - '*'
   - .
   - '9'
   - '8'
@@ -92,18 +91,16 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
   - '0'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {type: held}
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - ''
-  _num:
+  _nac:
   - ''
   - F6
   - F5
