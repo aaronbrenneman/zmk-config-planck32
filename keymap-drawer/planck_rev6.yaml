@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
-  _bas: ['', W, E, R, T, '', '', Y, U, I, O, '', A, S, D, F, G, '', '', H, J, K, L, ;, Z, X, C, V, B, '', '', N, M, ',', ., BSPC, '', '', '', _nav, SPACE, '', '',
-    LSHFT, _num, '', '', '']
+  _bas: ['', W, E, R, T, '', '', Y, U, I, O, '', A, S, D, F, G, '', '', H, J, K, L, P, Z, X, C, V, B, '', '', N, M, ',', ., ;, '', '', '', _nav, SPACE, '', '', LSHFT,
+    _num, '', '', '']
   _num:
   - ''
   - '6'
@@ -178,5 +178,3 @@ combos:
   k: ']'
 - p: [1, 12]
   k: Q
-- p: [10, 23]
-  k: P
