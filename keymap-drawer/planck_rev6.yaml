@@ -38,7 +38,7 @@ layers:
   - '"'
   - '='
   - +
-  - ''
+  - _fun
   - ''
   - ''
   - ''
@@ -136,7 +136,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -145,14 +145,14 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   - ''
 combos:
 - p: [1, 2]
   k: TAB
-- p: [9, 10]
+- p: [40, 43]
   k: DEL
 - p: [25, 26]
   k: {t: LCTRL, h: sticky}
@@ -162,7 +162,7 @@ combos:
   k: {t: LGUI, h: sticky}
 - p: [31, 32]
   k: {t: RALT, h: sticky}
-- p: [43, 40]
+- p: [10, 9]
   k: BSPC
 - p: [1, 13]
   k: '['
