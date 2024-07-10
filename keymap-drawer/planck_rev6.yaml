@@ -149,3 +149,30 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [1, 2]
+  k: TAB
+- p: [9, 10]
+  k: DEL
+- p: [25, 26]
+  k: {t: LCTRL, h: sticky}
+- p: [33, 34]
+  k: ENTER
+- p: [40, 39]
+  k: {t: LGUI, h: sticky}
+- p: [43, 44]
+  k: {t: RALT, h: sticky}
+- p: [43, 40]
+  k: BSPC
+- p: [1, 13]
+  k: '['
+- p: [2, 14]
+  k: (
+- p: [3, 15]
+  k: '{'
+- p: [8, 20]
+  k: '}'
+- p: [9, 21]
+  k: )
+- p: [10, 22]
+  k: ']'
