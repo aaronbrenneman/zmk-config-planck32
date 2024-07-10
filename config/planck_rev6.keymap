@@ -21,9 +21,9 @@
 
         _sym {
             bindings = <
-&kp TILDE      &kp LS(PIPE)  &kp LS(CARET)  &kp GRAVE      &none         &none  &none  &none   &none   &none  &none  &none
-&kp LS(EXCL)   &kp AT        &kp LS(PRCNT)  &kp LS(POUND)  &kp LS(AMPS)  &none  &none  &none   &none   &none  &none  &none
-&kp LS(QMARK)  &none         &none          &none          &none         &none  &none  &none   &none   &none  &none  &none
+&kp TILDE      &kp PIPE  &kp CARET  &kp GRAVE      &none         &none  &none  &none   &none   &none  &none  &none
+&kp EXCL   &kp AT        &kp PRCNT  &kp POUND  &kp AMPS  &none  &none  &none   &none   &none  &none  &none
+&kp QMARK  &none         &none          &none          &none         &none  &none  &none   &none   &none  &none  &none
 &none          &none         &none          &trans         &trans        &none  &none  &trans  &trans  &none  &none  &none
             >;
         };
