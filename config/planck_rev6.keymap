@@ -21,23 +21,23 @@
 
         _sym {
             bindings = <
-&kp TILDE  &none   &none      &none     &none      &none  &none &none  &none    &none  &none &none
-&kp GRAVE  &kp AT  &kp POUND  &kp DLLR  &kp PRCNT  &none  &none &none  &none    &none  &none &none  
-&none      &none   &none      &none     &none      &none  &none &none  &none    &none  &none &none  
-&none      &none   &none      &trans    &trans     &none  &none &trans &trans   &none  &none &none
-            >;
-        };
-
-        _nav {
-            bindings = <
-&none    &kp N6  &kp N5  &kp N4  &none   &none  &none  &none     &kp BSLH  &kp MINUS  &kp FSLH  &kp PLUS  &none
-&kp N0   &kp N3  &kp N2  &kp N1  &none   &none  &none  &none     &kp DQT   &kp UNDER  &none     &kp STAR  &none
-&kp DOT  &kp N9  &kp N8  &kp N7  &none   &none  &none  &none     &kp SQT   &kp EQUAL  &none     &none     &none
-&none    &none   &none   &kp N0  &trans  &none  &none  &trans  &trans  &none  &none  &none
+&kp TILDE   &none   &none      &none     &none      &none  &none &none  &none    &none  &none &none
+&kp GRAVE   &kp AT  &kp POUND  &kp DLLR  &kp PRCNT  &none  &none &none  &none    &none  &none &none  
+&none       &none   &none      &none     &none      &none  &none &none  &none    &none  &none &none  
+&none       &none   &none      &trans    &trans     &none  &none &trans &trans   &none  &none &none
             >;
         };
 
         _num {
+            bindings = <
+&none       &kp N6  &kp N5  &kp N4  &none   &none  &none  &none     &kp BSLH    &kp MINUS   &kp FSLH  &kp PLUS  
+&kp N3      &kp N2  &kp N1  &kp N0  &none   &none  &none  &none     &kp DQT     &kp UNDER   &none     &none   
+&kp STAR    &kp DOT &kp N9  &kp N8  &kp N7  &none  &none  &none     &none       &kp SQT     &kp EQUAL &none    
+&none       &none   &none   &kp N0  &trans  &none  &none  &trans    &trans      &none       &none     &none 
+            >;
+        };
+
+        _nac {
             bindings = <
 &none  &kp F6  &kp F5  &kp F4  &kp F12  &none  &none  &none   &kp PG_UP  &kp UP    &kp PG_DN  &none
 &none  &kp F3  &kp F2  &kp F1  &kp F11  &none  &none  &none   &kp LEFT   &kp DOWN  &kp RIGHT  &none
