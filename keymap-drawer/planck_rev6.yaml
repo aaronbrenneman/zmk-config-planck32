@@ -166,22 +166,22 @@ combos:
   k: BSPC
 - p: [1, 13]
   k: '['
-  l: [_num]
+  l: [_bas, _num]
 - p: [2, 14]
   k: (
-  l: [_num]
+  l: [_bas, _num]
 - p: [3, 15]
   k: '{'
-  l: [_num]
+  l: [_bas, _num]
 - p: [8, 20]
   k: '}'
-  l: [_num]
+  l: [_bas, _num]
 - p: [9, 21]
   k: )
-  l: [_num]
+  l: [_bas, _num]
 - p: [10, 22]
   k: ']'
-  l: [_num]
+  l: [_bas, _num]
 - p: [1, 12]
   k: Q
   l: [_bas]
