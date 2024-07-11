@@ -19,3 +19,4 @@
 ---
 include:
   - board: planck_rev6
+     artifact-name: planck34_01
