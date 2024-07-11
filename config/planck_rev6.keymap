@@ -78,6 +78,7 @@
 
         cb_q {
             bindings = <&kp Q>;
+            layers = <0>;
             key-positions = <1 12>;
         };
     };
