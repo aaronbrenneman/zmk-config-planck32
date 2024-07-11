@@ -42,31 +42,37 @@
 
         cb_lbkt {
             bindings = <&kp LBKT>;
+            layers = <1>;
             key-positions = <1 13>;
         };
 
         cb_lpara {
             bindings = <&kp LPAR>;
+            layers = <1>;
             key-positions = <2 14>;
         };
 
         cb_lbrc {
             bindings = <&kp LBRC>;
+            layers = <1>;
             key-positions = <3 15>;
         };
 
         cb_rbkt {
             bindings = <&kp RBRC>;
+            layers = <1>;
             key-positions = <8 20>;
         };
 
         cb_rpara {
             bindings = <&kp RPAR>;
+            layers = <1>;
             key-positions = <9 21>;
         };
 
         cb_rbrc {
             bindings = <&kp RBKT>;
+            layers = <1>;
             key-positions = <10 22>;
         };
 
