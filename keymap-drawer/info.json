@@ -1,3 +1,4 @@
+layout: {ortho_layout: {split: true, rows: 3, columns: 6, thumbs: 6}}
 draw_config:
   key_h: 60
   combo_h: 22
