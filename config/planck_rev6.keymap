@@ -1,11 +1,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define _split &none &none;
-#define _totrn &trans &trans;
-#define _sides &none &none &none;
-#define _thmbs _sides &mo 2 &kp SPACE _split &kp ENTER &mo 1 _sides;
-#define _lyrth _sides _totrn _split _totrn _sides;
+#define _split &none &none
+#define _totrn &trans &trans
+#define _sides &none &none &none
+#define _thmbs _sides &mo 2 &kp SPACE _split &kp ENTER &mo 1 _sides
+#define _lyrth _sides _totrn _split _totrn _sides
 
 / {
     combos {
