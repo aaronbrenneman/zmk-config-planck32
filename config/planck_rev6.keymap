@@ -1,6 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#define __ &none
+#define _o_ __ __ __ __ __
 #define _split &none &none
 #define _totrn &trans &trans
 #define _sides &none &none &none
@@ -94,7 +96,7 @@
 
         _bas {
             bindings = <
-&none  &kp W  &kp E  &kp R  &kp T      _split  &kp Y      &kp U  &kp I      &kp O    &none
+__  &kp W  &kp E  &kp R  &kp T      _split  &kp Y      &kp U  &kp I      &kp O    __
 &kp A  &kp S  &kp D  &kp F  &kp G      _split  &kp H      &kp J  &kp K      &kp L    &kp P
 &kp Z  &kp X  &kp C  &kp V  &kp B      _split  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMI
 _thmbs
@@ -103,27 +105,27 @@ _thmbs
 
         _num {
             bindings = <
-&none    &kp BSLH  &kp STAR   &kp FSLH   &none   _split  &none   &kp N4  &kp N5  &kp N6  &none
-&kp DOT  &kp SQT   &kp UNDER  &kp MINUS  &none   _split  &none   &kp N1  &kp N2  &kp N3  &kp N0
-&none    &kp DQT   &kp EQUAL  &kp PLUS   &none   _split  &none   &kp N7  &kp N8  &kp N9  &sl 3
+__    &kp BSLH  &kp STAR   &kp FSLH  __   _split  __   &kp N4  &kp N5  &kp N6  __
+&kp DOT  &kp SQT   &kp UNDER  &kp MINUS __   _split  __   &kp N1  &kp N2  &kp N3  &kp N0
+__    &kp DQT   &kp EQUAL  &kp PLUS   __   _split  __   &kp N7  &kp N8  &kp N9  &sl 3
 _lyrth
             >;
         };
 
         _nav {
             bindings = <
-&none      &kp TILDE  &kp GRAVE  &kp PIPE   &none   _split  &none   &kp HOME   &kp UP    &kp END    &none
-&kp EXCL   &kp AT     &kp POUND  &kp DLLR   &none   _split  &none   &kp LEFT   &kp DOWN  &kp RIGHT  &kp ESC
-&kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  &none   _split  &none   &kp PG_UP  &none     &kp PG_DN  &none
+__      &kp TILDE  &kp GRAVE  &kp PIPE   __   _split  __   &kp HOME   &kp UP    &kp END    __
+&kp EXCL   &kp AT     &kp POUND  &kp DLLR   __   _split  __   &kp LEFT   &kp DOWN  &kp RIGHT  &kp ESC
+&kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  __   _split  __   &kp PG_UP  __     &kp PG_DN  __
 _lyrth
             >;
         };
 
         _fun {
             bindings = <
-&none  &none  &none  &none   &none   _split  &none    &kp F4  &kp F5  &kp F6  &none
-&none  &none  &none  &none   &none   _split  &kp F11  &kp F1  &kp F2  &kp F3  &kp F10
-&none  &none  &none  &none   &none   _split  &kp F12  &kp F7  &kp F8  &kp F9  &none
+_o_  _split  __    &kp F4  &kp F5  &kp F6  __
+_o_  _split  &kp F11  &kp F1  &kp F2  &kp F3  &kp F10
+_o_  _split  &kp F12  &kp F7  &kp F8  &kp F9  __
 _lyrth
             >;
         };
