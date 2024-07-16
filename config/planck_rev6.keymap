@@ -1,12 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define &none &none &none &none
-#define _totrn &trans &trans
-#define _sides &none &none &none
-#define _thmbs _sides &mo 2 &kp SPACE &none &none &kp ENTER &mo 1 _sides
-#define _lyrth _sides _totrn &none &none _totrn _sides
-
 / {
     combos {
         compatible = "zmk,combos";
