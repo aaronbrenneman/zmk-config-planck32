@@ -38,11 +38,11 @@ layers:
   - '7'
   - '8'
   - '9'
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: _fun, h: sticky}
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -85,7 +85,7 @@ layers:
   - ''
   - ''
   - PG UP
-  - ''
+  - '&mkp MB2'
   - PG DN
   - TAB
   - ''
@@ -96,7 +96,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: _fun, h: sticky}
   - ''
   - ''
   - ''
@@ -136,11 +136,11 @@ layers:
   - F7
   - F8
   - F9
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
