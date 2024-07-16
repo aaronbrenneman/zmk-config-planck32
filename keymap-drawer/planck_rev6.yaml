@@ -87,7 +87,7 @@ layers:
   - PG UP
   - ''
   - PG DN
-  - ''
+  - TAB
   - ''
   - ''
   - ''
@@ -183,7 +183,7 @@ combos:
 - p: [12, 23]
   k: Q
   l: [_bas]
-- p: [23, 22]
+- p: [35, 34]
   k: {t: RSHIFT, h: sticky}
-- p: [12, 13]
+- p: [24, 25]
   k: LSHFT
