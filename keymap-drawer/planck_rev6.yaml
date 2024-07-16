@@ -1,32 +1,154 @@
 layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
-  _bas: ['&__', W, E, R, T  split, Y, U, I, 'O   ', A, S, D, F, G  split, H, J, K, L, P, Z, X, C, V, B  split, N, M, ',', ., SEMI  thmbs]
+  _bas: ['', W, E, R, T, '', '', Y, U, I, O, '', A, S, D, F, G, '', '', H, J, K, L, P, Z, X, C, V, B, '', '', N, M, ',', ., ;, '', '', '', _nav, SPACE, '', '', ENTER,
+    _num, '', '', '']
   _num:
-  - '&__'
+  - ''
   - \
   - '*'
-  - 'FSLH     split   '
+  - /
+  - ''
+  - ''
+  - ''
+  - ''
   - '4'
   - '5'
-  - '6   '
+  - '6'
+  - ''
   - .
   - ''''
   - _
-  - 'MINUS     split   '
+  - '-'
+  - ''
+  - ''
+  - ''
+  - ''
   - '1'
   - '2'
   - '3'
-  - '0   '
+  - '0'
+  - ''
   - '"'
   - '='
-  - 'PLUS     split   '
+  - +
+  - ''
+  - ''
+  - ''
+  - ''
   - '7'
   - '8'
   - '9'
-  - {t: '&mo 3 _lyrth', h: sticky}
-  _nav: ['&__', '~', '`', 'PIPE     split   ', HOME, UP, 'END   ', '!', '@', '#', 'DLLR     split   ', LEFT, DOWN, RIGHT, ESC, '?', ^, '&', 'PRCNT     split   ',
-    'PG UP   ', PG DN     lyrth]
-  _fun: ['&_o_ _split __', F4, F5, F6     o   split, F11, F1, F2, F3, F10  o   split, F12, F7, F8, F9     lyrth]
+  - {t: _fun, h: sticky}
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  _nav:
+  - ''
+  - '~'
+  - '`'
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
+  - UP
+  - END
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ESC
+  - '?'
+  - ^
+  - '&'
+  - '%'
+  - ''
+  - ''
+  - ''
+  - ''
+  - PG UP
+  - ''
+  - PG DN
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  _fun:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F11
+  - F1
+  - F2
+  - F3
+  - F10
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - ''
 combos:
 - p: [1, 2]
   k: TAB
@@ -34,8 +156,8 @@ combos:
   k: DEL
 - p: [25, 26]
   k: {t: LCTRL, h: sticky}
-- p: [33, 34]
-  k: {t: LSHFT, h: sticky}
+- p: [23, 22]
+  k: {t: RSHIFT, h: sticky}
 - p: [39, 40]
   k: {t: LGUI, h: sticky}
 - p: [43, 44]
@@ -63,3 +185,5 @@ combos:
 - p: [12, 23]
   k: Q
   l: [_bas]
+- p: [12, 13]
+  k: LSHFT

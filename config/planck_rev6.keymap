@@ -20,9 +20,9 @@
             key-positions = <25 26>;
         };
 
-        cb_shft {
-            bindings = <&sk LSHFT>;
-            key-positions = <33 34>;
+        cb_shftr {
+            bindings = <&sk RSHIFT>;
+            key-positions = <23 22>;
         };
 
         cb_gui {
@@ -81,6 +81,11 @@
             layers = <0>;
             key-positions = <12 23>;
         };
+
+        cb_shftl {
+            bindings = <&kp LSHFT>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
@@ -88,37 +93,65 @@
 
         _bas {
             bindings = <
+<<<<<<< HEAD
 &none  &kp W  &kp E  &kp R  &kp T      &none &none  &kp Y      &kp U  &kp I      &kp O    &none
 &kp A  &kp S  &kp D  &kp F  &kp G      &none &none  &kp H      &kp J  &kp K      &kp L    &kp P
 &kp Z  &kp X  &kp C  &kp V  &kp B      &none &none  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMI
 &none  &none  &none  &mo 2  &kp SPACE  &none &none  &kp ENTER  &mo 1  &none      &none    &none
+=======
+&none         &kp W  &kp E         &kp R      &kp T _split  &kp Y     &kp U  &kp I  &kp O  &none  &kp A             &kp S
+&kp D         &kp F  &kp G _split  &kp H      &kp J         &kp K     &kp L  &kp P  &kp Z  &kp X  &kp C             &kp V
+&kp B _split  &kp N  &kp M         &kp COMMA  &kp DOT       &kp SEMI  &none  &none  &none  &mo 2  &kp SPACE _split  &kp ENTER
+&mo 1         &none  &none         &none
+>>>>>>> 28432c50b53508055bfcf9cd75cfefef0f3b5f1a
             >;
         };
 
         _num {
             bindings = <
+<<<<<<< HEAD
 &none    &kp BSLH  &kp STAR   &kp FSLH   &none   &none &none  &none   &kp N4  &kp N5  &kp N6  &none
 &kp DOT  &kp SQT   &kp UNDER  &kp MINUS  &none   &none &none  &none   &kp N1  &kp N2  &kp N3  &kp N0
 &none    &kp DQT   &kp EQUAL  &kp PLUS   &none   &none &none  &none   &kp N7  &kp N8  &kp N9  &sl 3
 &none    &none     &none      &trans     &trans  &none &none  &trans  &trans  &none   &none   &none
+=======
+&none         &kp BSLH   &kp STAR      &kp FSLH  &none _split  &none   &kp N4  &kp N5  &kp N6  &none    &kp DOT        &kp SQT
+&kp UNDER     &kp MINUS  &none _split  &none     &kp N1        &kp N2  &kp N3  &kp N0  &none   &kp DQT  &kp EQUAL      &kp PLUS
+&none _split  &none      &kp N7        &kp N8    &kp N9        &sl 3   &none   &none   &none   &trans   &trans _split  &trans
+&trans        &none      &none         &none
+>>>>>>> 28432c50b53508055bfcf9cd75cfefef0f3b5f1a
             >;
         };
 
         _nav {
             bindings = <
+<<<<<<< HEAD
 &none      &kp TILDE  &kp GRAVE  &kp PIPE   &none   &none &none  &none   &kp HOME   &kp UP    &kp END    &none
 &kp EXCL   &kp AT     &kp POUND  &kp DLLR   &none   &none &none  &none   &kp LEFT   &kp DOWN  &kp RIGHT  &kp ESC
 &kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  &none   &none &none  &none   &kp PG_UP  &none     &kp PG_DN  &none
 &none      &none      &none      &trans     &trans  &none &none  &trans  &trans     &none     &none      &none
+=======
+&none         &kp TILDE  &kp GRAVE     &kp PIPE  &none _split  &none     &kp HOME   &kp UP   &kp END    &none      &kp EXCL       &kp AT
+&kp POUND     &kp DLLR   &none _split  &none     &kp LEFT      &kp DOWN  &kp RIGHT  &kp ESC  &kp QMARK  &kp CARET  &kp AMPS       &kp PRCNT
+&none _split  &none      &kp PG_UP     &none     &kp PG_DN     &none     &none      &none    &none      &trans     &trans _split  &trans
+&trans        &none      &none         &none
+>>>>>>> 28432c50b53508055bfcf9cd75cfefef0f3b5f1a
             >;
         };
 
         _fun {
             bindings = <
+<<<<<<< HEAD
 &none  &none  &none  &none   &none   &none &none  &none    &kp F4  &kp F5  &kp F6  &none
 &none  &none  &none  &none   &none   &none &none  &kp F11  &kp F1  &kp F2  &kp F3  &kp F10
 &none  &none  &none  &none   &none   &none &none  &kp F12  &kp F7  &kp F8  &kp F9  &none
 &none  &none  &none  &trans  &trans  &none &none  &trans   &trans  &none   &none   &none
+=======
+&none         &none    &none         &none    &none _split  &none   &kp F4  &kp F5   &kp F6  &none   &none          &none
+&none         &none    &none _split  &kp F11  &kp F1        &kp F2  &kp F3  &kp F10  &none   &none   &none          &none
+&none _split  &kp F12  &kp F7        &kp F8   &kp F9        &none   &none   &none    &none   &trans  &trans _split  &trans
+&trans        &none    &none         &none
+>>>>>>> 28432c50b53508055bfcf9cd75cfefef0f3b5f1a
             >;
         };
     };
