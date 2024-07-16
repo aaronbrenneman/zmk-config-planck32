@@ -156,8 +156,8 @@ combos:
   k: DEL
 - p: [25, 26]
   k: {t: LCTRL, h: sticky}
-- p: [33, 34]
-  k: {t: LSHFT, h: sticky}
+- p: [23, 22]
+  k: {t: RSHIFT, h: sticky}
 - p: [39, 40]
   k: {t: LGUI, h: sticky}
 - p: [43, 44]
@@ -185,3 +185,5 @@ combos:
 - p: [12, 23]
   k: Q
   l: [_bas]
+- p: [12, 13]
+  k: LSHFT
