@@ -12,7 +12,7 @@ draw_config:
 
   # combo box dimensions
   combo_w: 26
-  combo_h: 33
+  combo_h: 40
 
   # padding from the edge of cap to top and bottom legends
   small_pad: 4
@@ -23,7 +23,7 @@ draw_config:
 
   # padding between layers
   outer_pad_w: 27
-  outer_pad_h: 27
+  outer_pad_h: 35
 
   # gap between two halves for ortho layout generator
   # split_gap: 20 # This doesn't seem to have any effect either? 🤔
@@ -36,7 +36,7 @@ draw_config:
   shrink_wide_legends: 5
 
   # Glyphs dimensions
-  glyph_tap_size: 20
+  glyph_tap_size: 18
   glyph_hold_size: 18
   glyph_shifted_size: 18
 
@@ -335,10 +335,10 @@ draw_config:
     }
     .none {
         --color--key--bg: var(--color--none--bg);
-        --color--key--border: var(--color--none--border);
-        --color--key--text--tap: var(--color--none--text--tap);
-        --color--key--text--shifted: var(--color--none--text--shifted);
-        --color--key--text--hold: var(--color--none--text--hold);
+        --color--key--border: transparent;
+        --color--key--text--tap: transparent;
+        --color--key--text--shifted: transparent;
+        --color--key--text--hold: transparent;
     }
     .ghost {
         --color--key--bg: var(--color--ghost--bg);
@@ -360,35 +360,6 @@ draw_config:
     }
     .hold.mdi\:bluetooth {
       translate: 25px -25px;
-    }
-
-    /* Outer column + thumb keys */
-    .keypos-0,
-    .keypos-11,
-    .keypos-12,
-    .keypos-23,
-    .keypos-24,
-    .keypos-35,
-    .keypos-36,
-    .keypos-37,
-    .keypos-38,
-    .keypos-39,
-    .keypos-40,
-    .keypos-41 {
-        --color--key--bg: var(--color--material--blue-gray--100);
-        --color--key--border: var(--color--material--blue-gray--50);
-    }
-
-    .keypos-12 {
-        --color--key--bg: var(--color--material--red--300);
-        --color--key--border: var(--color--material--red--200);
-        --color--key--text--shifted: var(--color--key--text--tap);
-        --color--key--text--hold: var(--color--key--text--tap);
-    }
-
-    .keypos-23 {
-        --color--key--bg: var(--color--material--teal--200);
-        --color--key--border: var(--color--material--teal--100);
     }
 
 parse_config:
@@ -677,13 +648,13 @@ parse_config:
   zmk_combos:
     cb_gui:
       align: bottom
-      o: 2.12  
+     # o: 2.12  
       arc_scale: 1.03
     cb_alt:
-      align: top
+      align: bottom
     cb_q:
       align: top
-      offset: 0.03
+      offset: 0.04
     combo_mute:
       align: top
       offset: 0.15
