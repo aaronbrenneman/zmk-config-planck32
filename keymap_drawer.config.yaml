@@ -349,7 +349,9 @@ draw_config:
         --color--key--text--hold: var(--color--ghost--text--hold);
     }
 
-
+    sticky_label {
+        text-anchor: bottom;
+    }
     /*
      * Overrides
      */
