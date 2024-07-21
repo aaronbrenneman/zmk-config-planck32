@@ -1,7 +1,7 @@
 draw_config:
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
-  key_h: 80
+  key_h: 70
 
   # keys border radius
   key_rx: 4
@@ -18,12 +18,12 @@ draw_config:
   small_pad: 4
 
   # Padding between keys
-  inner_pad_w: 1.5
-  inner_pad_h: 1.5
+  inner_pad_w: 1.75
+  inner_pad_h: 1.75
 
   # padding between layers
-  outer_pad_w: 0
-  outer_pad_h: 0
+  outer_pad_w: 7
+  outer_pad_h: 7
 
   # gap between two halves for ortho layout generator
   # split_gap: 20 # This doesn't seem to have any effect either? 🤔
@@ -36,7 +36,7 @@ draw_config:
   shrink_wide_legends: 5
 
   # Glyphs dimensions
-  glyph_tap_size: 26
+  glyph_tap_size: 20
   glyph_hold_size: 18
   glyph_shifted_size: 18
 
@@ -317,7 +317,9 @@ draw_config:
     /*
      * Transparent, None, and Ghost Keys
      */
-    .trans,
+    .trans{
+      opacity: 0.91;
+    },
     .none {
       opacity: 0.1;
     },
