@@ -1,7 +1,7 @@
 draw_config:
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
-  key_h: 70
+  key_h: 50
 
   # keys border radius
   key_rx: 4
@@ -11,8 +11,8 @@ draw_config:
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 36
-  combo_h: 36
+  combo_w: 46
+  combo_h: 46
 
   # padding from the edge of cap to top and bottom legends
   small_pad: 4
@@ -22,8 +22,8 @@ draw_config:
   inner_pad_h: 1.75
 
   # padding between layers
-  outer_pad_w: 7
-  outer_pad_h: 7
+  outer_pad_w: 27
+  outer_pad_h: 27
 
   # gap between two halves for ortho layout generator
   # split_gap: 20 # This doesn't seem to have any effect either? 🤔
