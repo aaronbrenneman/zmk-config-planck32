@@ -373,7 +373,7 @@ path.combo {
   translate: 25px -25px;
 }
 .sticky_label.mdi\:gesture-tap-hold {
-  translate: 0px -25px;
+  translate: 0px -55px;
 }
 </style>
 <g transform="translate(27, 0)" class="layer-_bas">
