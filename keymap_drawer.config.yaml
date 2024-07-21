@@ -10,14 +10,14 @@ draw_config:
 parse_config:
   raw_binding_map:
     # Layers
-    "&mo 1": $$mdi:alpha-1-box$$
-
-    # Modifiers
-    "&kp RSHIFT": $$mdi:apple-keyboard-shift$$
+    "&mo 1": $$mdi:numeric$$    
+    "&mo 2": $$mdi:symbol$$
+    "&mo 3": $$mdi:dunction$$
 
     # Empty
     "&none":
       tap: $$mdi:circle-small$$
+      type: none
     
   # ZMK
   zmk_keycode_map:
