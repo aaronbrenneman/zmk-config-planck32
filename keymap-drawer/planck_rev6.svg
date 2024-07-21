@@ -291,7 +291,7 @@ rect.combo {
 }
 .hold {
     dominant-baseline: ideographic;
-    fill: var(--color--key--text--hold);
+    fill: var(--color--material--yellow--600);
 }
 
 /*
