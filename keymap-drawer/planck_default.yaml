@@ -43,7 +43,7 @@ layers:
   - $$mdi:numeric$$
   - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
-  - raise
+  - $$mdi:numeric$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -141,7 +141,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - NEXT
   - VOL DN
   - VOL UP
