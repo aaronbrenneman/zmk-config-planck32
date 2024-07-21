@@ -192,7 +192,7 @@ svg.keymap {
     --color--turquoise--500: rgb(51, 204, 204);
 
     --color--bg: transparent;
-    --color--text: var(--color--material--teal--a200);
+    --color--text: var(--color--material--blue-gray--900);
 
     --color--layer--text: var(--color--material--blue-gray--400);
 
