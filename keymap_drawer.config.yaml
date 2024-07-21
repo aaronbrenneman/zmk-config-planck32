@@ -8,21 +8,20 @@ draw_config:
   append_colon_to_layer_header: false
 
   # Glyphs dimensions
-  glyph_tap_size: 26
+  #glyph_tap_size: 26
     
 parse_config:
   raw_binding_map:
     # Layers
-    "&mo 1": $$mdi:alpha-w-box$$
+    "&mo 1": $$mdi:alpha-1-box$$
+    "&mo 2": $$mdi:alpha-2-box$$
 
     # Modifiers
-    "&caps_word": $$mdi:alpha-w-box$$
     "&kp RSHIFT": $$mdi:apple-keyboard-shift$$
 
     # Empty
     "&none":
-      tap: $$mdi:minus-circle-outline$$
-      type: none
+      tap: $$mdi:circle-small$$
     
   # ZMK
   zmk_keycode_map:
