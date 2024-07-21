@@ -96,7 +96,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: _fun, h: sticky}
+  - {t: '$$mdi:function$$', h: sticky}
   - ''
   - ''
   - ''
@@ -145,7 +145,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
