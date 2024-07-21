@@ -1,7 +1,7 @@
 draw_config:
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
-  key_h: 50
+  key_h: 55
 
   # keys border radius
   key_rx: 4
@@ -11,8 +11,8 @@ draw_config:
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 46
-  combo_h: 46
+  combo_w: 26
+  combo_h: 33
 
   # padding from the edge of cap to top and bottom legends
   small_pad: 4
@@ -227,7 +227,7 @@ draw_config:
          */
 
         font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-        font-size: 24px;
+        font-size: 20px;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
         fill: var(--color--text);
