@@ -372,6 +372,9 @@ path.combo {
 .hold.mdi\:bluetooth {
   translate: 25px -25px;
 }
+.sticky_label.mdi\:gesture-tap-hold {
+  translate: 0px -25px;
+}
 </style>
 <g transform="translate(27, 0)" class="layer-_bas">
 <text x="0" y="18" class="label">_bas</text>
