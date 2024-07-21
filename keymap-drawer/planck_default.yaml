@@ -40,10 +40,10 @@ layers:
   - LCTL
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - $$mdi:alpha-w-box$$
+  - $$mdi:alpha-1-box$$
   - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
-  - raise
+  - $$mdi:alpha-2-box$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -141,7 +141,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - NEXT
   - VOL DN
   - VOL UP

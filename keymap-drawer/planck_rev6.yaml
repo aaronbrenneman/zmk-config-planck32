@@ -1,124 +1,79 @@
 layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
-  _bas:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - W
-  - E
-  - R
-  - T
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Y
-  - U
-  - I
-  - O
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - H
-  - J
-  - K
-  - L
-  - P
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - N
-  - M
-  - ','
-  - $$mdi:star-three-points$$
-  - ;
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - _nav
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-return$$
-  - $$mdi:alpha-w-box$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  _bas: ['$$mdi:circle-small$$', W, E, R, T, '$$mdi:circle-small$$', '$$mdi:circle-small$$', Y, U, I, O, '$$mdi:circle-small$$', A, S, D, F, G, '$$mdi:circle-small$$',
+    '$$mdi:circle-small$$', H, J, K, L, P, Z, X, C, V, B, '$$mdi:circle-small$$', '$$mdi:circle-small$$', N, M, ',', '$$mdi:star-three-points$$', ;, '$$mdi:circle-small$$',
+    '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:alpha-2-box$$', '$$mdi:keyboard-space$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:keyboard-return$$',
+    '$$mdi:alpha-1-box$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$']
   _num:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
   - \
   - '*'
   - /
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
   - $$mdi:star-three-points$$
   - ''''
   - _
   - '-'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - '1'
   - '2'
   - '3'
   - '0'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
   - '"'
   - '='
   - +
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - '7'
   - '8'
   - '9'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - {t: ▽, type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   _nav:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
   - '~'
   - '`'
   - '|'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
   - '!'
   - '@'
   - POUND
   - $
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -127,124 +82,79 @@ layers:
   - ^
   - '&'
   - '%'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - PG UP
   - '&mkp MB2'
   - PG DN
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - {t: ▽, type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ▽, type: trans}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - {t: ▽, type: trans}
   - {t: _fun, h: sticky}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   _fun:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - F4
   - F5
   - F6
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - F11
   - F1
   - F2
   - F3
   - F10
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - F12
   - F7
   - F8
   - F9
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - {t: ▽, type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ▽, type: trans}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  gam:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Q
-  - W
-  - E
-  - R
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - A
-  - S
-  - D
-  - F
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - I
-  - O
-  - P
-  - J
-  - K
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Z
-  - X
-  - C
-  - V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F1
-  - F2
-  - F3
-  - F4
-  - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  - $$mdi:circle-small$$
+  gam: ['$$mdi:circle-small$$', Q, W, E, R, '$$mdi:circle-small$$', '$$mdi:circle-small$$', '1', '2', '3', '4', '$$mdi:circle-small$$', '$$mdi:circle-small$$', A,
+    S, D, F, '$$mdi:circle-small$$', '$$mdi:circle-small$$', I, O, P, J, K, '$$mdi:circle-small$$', Z, X, C, V, '$$mdi:circle-small$$', '$$mdi:circle-small$$', F1,
+    F2, F3, F4, '$$mdi:keyboard-esc$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$',
+    '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$']
 combos:
 - p: [1, 2]
   k: $$mdi:keyboard-tab$$
