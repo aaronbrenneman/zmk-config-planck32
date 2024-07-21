@@ -2,8 +2,8 @@ layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
   _bas: ['$$mdi:circle-small$$', W, E, R, T, '$$mdi:circle-small$$', '$$mdi:circle-small$$', Y, U, I, O, '$$mdi:circle-small$$', A, S, D, F, G, '$$mdi:circle-small$$',
     '$$mdi:circle-small$$', H, J, K, L, P, Z, X, C, V, B, '$$mdi:circle-small$$', '$$mdi:circle-small$$', N, M, ',', '$$mdi:star-three-points$$', ;, '$$mdi:circle-small$$',
-    '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:alpha-2-box$$', '$$mdi:keyboard-space$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:keyboard-return$$',
-    '$$mdi:alpha-1-box$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$']
+    '$$mdi:circle-small$$', '$$mdi:circle-small$$', _nav, '$$mdi:keyboard-space$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:keyboard-return$$', '$$mdi:alpha-1-box$$',
+    '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$']
   _num:
   - $$mdi:circle-small$$
   - \
@@ -93,7 +93,7 @@ layers:
   - $$mdi:circle-small$$
   - $$mdi:circle-small$$
   - $$mdi:circle-small$$
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - $$mdi:circle-small$$
   - $$mdi:circle-small$$
@@ -142,7 +142,7 @@ layers:
   - $$mdi:circle-small$$
   - $$mdi:circle-small$$
   - $$mdi:circle-small$$
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - $$mdi:circle-small$$
   - $$mdi:circle-small$$
