@@ -202,7 +202,8 @@ svg.keymap {
     --color--key--bg: var(--color--material--blue-gray--50);
     --color--key--border: white;
     --color--key--text--tap: var(--color--text);
-    --color--key--text--shifted: var(--color--material--blue-gray--500);
+    #--color--key--text--shifted: var(--color--material--blue-gray--500);
+    --color--key--text--shifted: transparent;
     --color--key--text--hold: var(--color--material--blue-gray--500);
 
     --color--combo--bg: var(--color--material--blue-gray--100);
