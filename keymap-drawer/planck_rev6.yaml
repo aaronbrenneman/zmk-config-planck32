@@ -253,9 +253,13 @@ combos:
 - p: [25, 26]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [39, 40]
-  k: {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
+  a: bottom
+  o: 2.12
+  arc_scale: 1.03
 - p: [43, 44]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  a: top
 - p: [10, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [1, 13]
@@ -279,6 +283,8 @@ combos:
 - p: [12, 1]
   k: Q
   l: [_bas]
+  a: top
+  o: 0.03
 - p: [35, 34]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [24, 25]
