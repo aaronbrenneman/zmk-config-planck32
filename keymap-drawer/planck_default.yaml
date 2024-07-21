@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:backspace$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
   - A
   - S
@@ -22,8 +22,8 @@ layers:
   - J
   - K
   - L
-  - ;
-  - ''''
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -32,34 +32,34 @@ layers:
   - B
   - N
   - M
-  - ','
-  - .
-  - /
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - RET
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - LCTL
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - $$mdi:numeric$$
-  - {t: ▽, type: trans}
+  - lower
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - $$mdi:symbol$$
+  - raise
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   lower:
-  - Sft+ `
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
-  - Sft+ 4
-  - Sft+ 5
-  - Sft+ 6
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - Sft+ 0
+  - {t: Sft+ `, s: Sft+ ~}
+  - {t: Sft+ 1, s: Sft+ !}
+  - {t: Sft+ 2, s: Sft+ @}
+  - {t: Sft+ 3, s: 'Sft+ #'}
+  - {t: Sft+ 4, s: Sft+ $}
+  - {t: Sft+ 5, s: Sft+ %}
+  - {t: Sft+ 6, s: Sft+ ^}
+  - {t: Sft+ 7, s: Sft+ &}
+  - {t: Sft+ 8, s: Sft+ *}
+  - {t: Sft+ 9, s: Sft+ (}
+  - {t: Sft+ 0, s: Sft+ )}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:backspace-reverse-outline$$
   - F1
@@ -73,7 +73,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F7
   - F8
   - F9
@@ -81,35 +81,35 @@ layers:
   - F11
   - F12
   - 'Sft+ #'
-  - Sft+ \
+  - {t: Sft+ \, s: Sft+ |}
   - HOME
   - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - NEXT
-  - VOL DN
-  - VOL UP
-  - PP
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-next$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:play-pause$$
   raise:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - $$mdi:backspace$$
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - F1
   - F2
@@ -117,12 +117,12 @@ layers:
   - F4
   - F5
   - F6
-  - '-'
-  - '='
-  - '{'
-  - '}'
-  - \
-  - {t: ▽, type: trans}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F7
   - F8
   - F9
@@ -130,19 +130,19 @@ layers:
   - F11
   - F12
   - '#'
-  - \
+  - {t: \, s: '|'}
   - PG UP
   - PG DN
-  - {t: ▽, type: trans}
-  - '&sys_reset'
-  - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - NEXT
-  - VOL DN
-  - VOL UP
-  - PP
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - $$mdi:skip-next$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:play-pause$$
