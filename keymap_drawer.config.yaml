@@ -1,7 +1,7 @@
 draw_config:
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
-  key_h: 55
+  key_h: 58
 
   # keys border radius
   key_rx: 4
@@ -11,15 +11,15 @@ draw_config:
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 26
-  combo_h: 40
+  combo_w: 25
+  combo_h: 38
 
   # padding from the edge of cap to top and bottom legends
   small_pad: 4
 
   # Padding between keys
-  inner_pad_w: 1.75
-  inner_pad_h: 1.75
+  inner_pad_w: 1.85
+  inner_pad_h: 1.85
 
   # padding between layers
   outer_pad_w: 27
@@ -38,7 +38,7 @@ draw_config:
   # Glyphs dimensions
   glyph_tap_size: 18
   glyph_hold_size: 18
-  glyph_shifted_size: 18
+  glyph_shifted_size: 0
 
   # Custom CSS
   svg_style: |
@@ -203,7 +203,7 @@ draw_config:
         --color--combo--text--hold: var(--color--combo--text--tap);
 
         --color--trans--bg: transparent;
-        --color--trans--border: var(--color--material--teal--a200);
+        --color--trans--border: var(--color--material--purple--500);
         --color--trans--text--tap: var(--color--trans--border);
         --color--trans--text--shifted: var(--color--trans--text--tap);
         --color--trans--text--hold: var(--color--trans--text--tap);
@@ -227,7 +227,7 @@ draw_config:
          */
 
         font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-        font-size: 20px;
+        font-size: 18px;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
         fill: var(--color--text);
@@ -303,14 +303,14 @@ draw_config:
         fill: none;
     }
     .combo.tap {
-        font-size: 16px;
+        font-size: 12px;
     }
     .combo.shifted {
         font-size: 13px;
         translate: -9px -2px;
     }
     .combo.hold {
-        font-size: 16px;
+        font-size: 15px;
         /* translate: 2px 0px; */
     }
 
@@ -329,7 +329,7 @@ draw_config:
     .trans {
         --color--key--bg: var(--color--trans--bg);
         --color--key--border: var(--color--trans--border);
-        --color--key--text--tap: var(--color--trans--text--tap);
+        --color--key--text--tap: var(--color--material--purple--900);
         --color--key--text--shifted: var(--color--trans--text--shifted);
         --color--key--text--hold: var(--color--trans--text--hold);
     }
