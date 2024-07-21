@@ -281,7 +281,7 @@ draw_config:
     }
     .hold {
         dominant-baseline: ideographic;
-        fill: var(--color--material--yellow--600);
+        fill: var(--color--key--text--hold);
     }
 
     /*
