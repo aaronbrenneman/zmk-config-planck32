@@ -43,7 +43,7 @@ layers:
   - $$mdi:numeric$$
   - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
-  - $$mdi:numeric$$
+  - $$mdi:symbol$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
