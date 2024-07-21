@@ -612,6 +612,7 @@ parse_config:
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
+    LGUI: $$mdi:apple-keyboard-command$$
     # "Meh" key
     LS(LC(LALT)): $$mdi:star-three-points$$
 
@@ -674,11 +675,13 @@ parse_config:
       hold: zoom
 
   zmk_combos:
-    combo_to_2:
+    cb_gui:
+      align: bottom
+      o: 2.12  
+      arc_scale: 1.03
+    cb_alt:
       align: top
-    combo_to_3:
-      align: top
-    combo_bt_clear:
+    cb_q:
       align: top
       offset: 0.03
     combo_mute:
