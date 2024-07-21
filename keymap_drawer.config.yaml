@@ -38,7 +38,7 @@ draw_config:
   # Glyphs dimensions
   glyph_tap_size: 18
   glyph_hold_size: 18
-  glyph_shifted_size: 0
+  glyph_shifted_size: 1
 
   # Custom CSS
   svg_style: |
@@ -192,7 +192,8 @@ draw_config:
         --color--key--bg: var(--color--material--blue-gray--50);
         --color--key--border: white;
         --color--key--text--tap: var(--color--text);
-        --color--key--text--shifted: var(--color--material--blue-gray--500);
+        #--color--key--text--shifted: var(--color--material--blue-gray--500);
+        --color--key--text--shifted: transparent;
         --color--key--text--hold: var(--color--material--blue-gray--500);
 
         --color--combo--bg: var(--color--material--blue-gray--100);
