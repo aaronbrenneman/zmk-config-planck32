@@ -11,7 +11,7 @@ parse_config:
   raw_binding_map:
     # Layers
     "&mo 1": $$mdi:numeric$$    
-    "&mo 2": $$mdi:numeric$$    
+    "&mo 2": $$mdi:symbol$$    
     
   # ZMK
   zmk_keycode_map:
