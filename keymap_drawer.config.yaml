@@ -363,7 +363,7 @@ draw_config:
       translate: 25px -25px;
     }
     .sticky_label.mdi\:gesture-tap-hold {
-      translate: 0px -25px;
+      translate: 0px -55px;
     }
 
 parse_config:
