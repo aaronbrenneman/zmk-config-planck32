@@ -1,79 +1,124 @@
 layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
-  _bas: ['$$mdi:circle-small$$', W, E, R, T, '$$mdi:circle-small$$', '$$mdi:circle-small$$', Y, U, I, O, '$$mdi:circle-small$$', A, S, D, F, G, '$$mdi:circle-small$$',
-    '$$mdi:circle-small$$', H, J, K, L, P, Z, X, C, V, B, '$$mdi:circle-small$$', '$$mdi:circle-small$$', N, M, ',', '$$mdi:star-three-points$$', ;, '$$mdi:circle-small$$',
-    '$$mdi:circle-small$$', '$$mdi:circle-small$$', _nav, '$$mdi:keyboard-space$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:keyboard-return$$', '$$mdi:alpha-1-box$$',
-    '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$']
+  _bas:
+  - {t: '$$mdi:circle-small$$', type: none}
+  - W
+  - E
+  - R
+  - T
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - Y
+  - U
+  - I
+  - O
+  - {t: '$$mdi:circle-small$$', type: none}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - H
+  - J
+  - K
+  - L
+  - P
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - N
+  - M
+  - ','
+  - $$mdi:star-three-points$$
+  - ;
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - $$mdi:symbol$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - $$mdi:keyboard-return$$
+  - $$mdi:numeric$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   _num:
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
   - \
   - '*'
   - /
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - '4'
   - '5'
   - '6'
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
   - $$mdi:star-three-points$$
   - ''''
   - _
   - '-'
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - '1'
   - '2'
   - '3'
   - '0'
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
   - '"'
   - '='
   - +
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - '7'
   - '8'
   - '9'
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - {t: ▽, type: trans}
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   _nav:
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
   - '~'
   - '`'
   - '|'
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
   - '!'
   - '@'
   - POUND
   - $
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -82,79 +127,124 @@ layers:
   - ^
   - '&'
   - '%'
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - PG UP
   - '&mkp MB2'
   - PG DN
   - $$mdi:keyboard-tab$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - {type: held}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - {t: ▽, type: trans}
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
   - {t: ▽, type: trans}
-  - {t: _fun, h: sticky}
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:dunction$$', h: sticky}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   _fun:
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - F4
   - F5
   - F6
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - F11
   - F1
   - F2
   - F3
   - F10
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - F12
   - F7
   - F8
   - F9
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - {type: held}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
   - {t: ▽, type: trans}
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
   - {t: ▽, type: trans}
-  - {type: held}
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  - $$mdi:circle-small$$
-  gam: ['$$mdi:circle-small$$', Q, W, E, R, '$$mdi:circle-small$$', '$$mdi:circle-small$$', '1', '2', '3', '4', '$$mdi:circle-small$$', '$$mdi:circle-small$$', A,
-    S, D, F, '$$mdi:circle-small$$', '$$mdi:circle-small$$', I, O, P, J, K, '$$mdi:circle-small$$', Z, X, C, V, '$$mdi:circle-small$$', '$$mdi:circle-small$$', F1,
-    F2, F3, F4, '$$mdi:keyboard-esc$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$',
-    '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$', '$$mdi:circle-small$$']
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  gam:
+  - {t: '$$mdi:circle-small$$', type: none}
+  - Q
+  - W
+  - E
+  - R
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - A
+  - S
+  - D
+  - F
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - I
+  - O
+  - P
+  - J
+  - K
+  - {t: '$$mdi:circle-small$$', type: none}
+  - Z
+  - X
+  - C
+  - V
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - F1
+  - F2
+  - F3
+  - F4
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
+  - {t: '$$mdi:circle-small$$', type: none}
 combos:
 - p: [1, 2]
   k: $$mdi:keyboard-tab$$
