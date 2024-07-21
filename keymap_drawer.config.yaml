@@ -362,6 +362,9 @@ draw_config:
     .hold.mdi\:bluetooth {
       translate: 25px -25px;
     }
+    .sticky_label.mdi\:gesture-tap-hold {
+      translate: 0px -25px;
+    }
 
 parse_config:
   mark_alternate_layer_activators: true
