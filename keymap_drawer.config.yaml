@@ -13,11 +13,6 @@ parse_config:
     "&mo 1": $$mdi:numeric$$    
     "&mo 2": $$mdi:symbol$$
     "&mo 3": $$mdi:dunction$$
-
-    # Empty
-    "&none":
-      tap: $$mdi:circle-small$$
-      type: none
     
   # ZMK
   zmk_keycode_map:
