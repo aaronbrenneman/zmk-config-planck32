@@ -328,9 +328,9 @@ draw_config:
       opacity: 0.4;
     }
     .trans {
-        --color--key--bg: var(--color--trans--bg);
-        --color--key--border: var(--color--material--purple--900);
-        --color--key--text--tap: var(--color--material--purple--900);
+        --color--key--bg: var(--color--material--purple--900);
+        --color--key--border: var(--color--material--purple--100);
+        --color--key--text--tap: var(--color--material--purple--50);
         --color--key--text--shifted: var(--color--trans--text--shifted);
         --color--key--text--hold: var(--color--trans--text--hold);
     }
