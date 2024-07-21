@@ -359,7 +359,9 @@ path.combo {
     --color--key--text--hold: var(--color--ghost--text--hold);
 }
 
-
+sticky_label {
+    text-anchor: bottom;
+}
 /*
  * Overrides
  */
