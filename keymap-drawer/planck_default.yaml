@@ -1,6 +1,6 @@
 layers:
   default:
-  - TAB
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - BSPC
-  - ESC
+  - $$mdi:backspace$$
+  - $$mdi:keyboard-esc$$
   - A
   - S
   - D
@@ -24,7 +24,7 @@ layers:
   - L
   - ;
   - ''''
-  - LSHFT
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -33,21 +33,21 @@ layers:
   - N
   - M
   - ','
-  - .
+  - $$mdi:star-three-points$$
   - /
   - RET
   - {t: ▽, type: trans}
   - LCTL
-  - LALT
+  - $$mdi:apple-keyboard-option$$
   - LGUI
-  - lower
+  - $$mdi:alpha-w-box$$
   - {t: ▽, type: trans}
-  - SPACE
+  - $$mdi:keyboard-space$$
   - raise
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   lower:
   - Sft+ `
   - Sft+ 1
@@ -60,8 +60,8 @@ layers:
   - Sft+ 8
   - Sft+ 9
   - Sft+ 0
-  - DEL
-  - DEL
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:backspace-reverse-outline$$
   - F1
   - F2
   - F3
@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -109,8 +109,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
-  - DEL
+  - $$mdi:backspace$$
+  - $$mdi:backspace-reverse-outline$$
   - F1
   - F2
   - F3
@@ -119,8 +119,8 @@ layers:
   - F6
   - '-'
   - '='
-  - '['
-  - ']'
+  - '{'
+  - '}'
   - \
   - {t: ▽, type: trans}
   - F7
