@@ -1,0 +1,95 @@
+draw_config:
+
+  # combo box dimensions
+  combo_w: 30
+  combo_h: 30
+
+  # as it reads on the tin can, this comment is here for consistency
+  append_colon_to_layer_header: false
+
+  # Glyphs dimensions
+  glyph_tap_size: 26
+    
+parse_config:
+  raw_binding_map:
+    # Layers
+    "&mo 1": $$mdi:alpha-w-box$$
+
+    # Modifiers
+    "&caps_word": $$mdi:alpha-w-box$$
+    "&kp RSHIFT": $$mdi:apple-keyboard-shift$$
+
+    # Empty
+    "&none":
+      tap: $$mdi:minus-circle-outline$$
+      type: none
+    
+  # ZMK
+  zmk_keycode_map:
+    # Symbols
+    EXCL: "!"
+    AT: "@"
+    HASH: "#"
+    DLLR: $
+    PRCNT: "%"
+    CARET: ^
+    AMPS: "&"
+    STAR: "*"
+    LPAR: (
+    RPAR: )
+    EQUAL: "="
+    PLUS: +
+    MINUS: "-"
+    UNDER: _
+    SLASH: "/"
+    FSLH: "/"
+    QMARK: "?"
+    BACKSLASH: '\'
+    BSLH: '\'
+    PIPE: "|"
+    SEMI: ";"
+    COLON: ":"
+    SQT: "'"
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    LT: <
+    GT: ">"
+    DOT: "."
+    COMMA: ","
+    LBKT: "{"
+    LBRC: "{"
+    RBKT: "}"
+    RBRC: "}"
+    GRAVE: "`"
+    TILDE: "~"
+
+    # Modifiers
+    LCTRL: $$mdi:apple-keyboard-control$$
+    LALT: $$mdi:apple-keyboard-option$$
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    LCMD: $$mdi:apple-keyboard-command$$
+    RCTRL: $$mdi:apple-keyboard-control$$
+    RALT: $$mdi:apple-keyboard-option$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    RCMD: $$mdi:apple-keyboard-command$$
+    # "Meh" key
+    DOT: $$mdi:star-three-points$$
+
+    # Arrows
+    UP: $$mdi:arrow-up-bold$$
+    DOWN: $$mdi:arrow-down-bold$$
+    LEFT: $$mdi:arrow-left-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$
+
+    # Whitespace
+    ENTER: $$mdi:keyboard-return$$
+    ESC: $$mdi:keyboard-esc$$
+    TAB: $$mdi:keyboard-tab$$
+    LS(TAB): $$mdi:keyboard-tab-reverse$$
+    SPACE: $$mdi:keyboard-space$$
+    BACKSPACE: $$mdi:backspace$$
+    BSPC: $$mdi:backspace$$
+    DELETE: $$mdi:backspace-reverse-outline$$
+    DEL: $$mdi:backspace-reverse-outline$$
