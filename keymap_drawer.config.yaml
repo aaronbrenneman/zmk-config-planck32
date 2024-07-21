@@ -203,7 +203,7 @@ draw_config:
         --color--combo--text--hold: var(--color--combo--text--tap);
 
         --color--trans--bg: transparent;
-        --color--trans--border: var(--color--material--purple--500);
+        --color--trans--border: var(--color--trans--bg);
         --color--trans--text--tap: var(--color--trans--border);
         --color--trans--text--shifted: var(--color--trans--text--tap);
         --color--trans--text--hold: var(--color--trans--text--tap);
@@ -287,7 +287,7 @@ draw_config:
      * Combos
      */
     .combo {
-        --color--key--bg: var(--color--combo--bg);
+        --color--key--bg: var(--color--material--purple--100);
         --color--key--border: var(--color--combo--border);
         --color--key--text--tap: var(--color--combo--text--tap);
         --color--key--text--shifted: var(--color--combo--text--shifted);
@@ -328,7 +328,7 @@ draw_config:
     }
     .trans {
         --color--key--bg: var(--color--trans--bg);
-        --color--key--border: var(--color--trans--border);
+        --color--key--border: var(--color--material--purple--900);
         --color--key--text--tap: var(--color--material--purple--900);
         --color--key--text--shifted: var(--color--trans--text--shifted);
         --color--key--text--hold: var(--color--trans--text--hold);
