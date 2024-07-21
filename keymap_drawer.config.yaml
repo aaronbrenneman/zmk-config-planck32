@@ -1,7 +1,7 @@
 draw_config:
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
-  key_h: 50
+  key_h: 60
 
   # keys border radius
   key_rx: 4
@@ -11,7 +11,7 @@ draw_config:
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 46
+  combo_w: 30
   combo_h: 46
 
   # padding from the edge of cap to top and bottom legends
@@ -36,7 +36,7 @@ draw_config:
   shrink_wide_legends: 5
 
   # Glyphs dimensions
-  glyph_tap_size: 20
+  glyph_tap_size: 16
   glyph_hold_size: 18
   glyph_shifted_size: 18
 
@@ -203,8 +203,8 @@ draw_config:
         --color--combo--text--hold: var(--color--combo--text--tap);
 
         --color--trans--bg: transparent;
-        --color--trans--border: var(--color--material--teal--a200);
-        --color--trans--text--tap: var(--color--trans--border);
+        --color--trans--border: var(--color--material--purple--400);
+        --color--trans--text--tap: var(--color--material--purple--400);
         --color--trans--text--shifted: var(--color--trans--text--tap);
         --color--trans--text--hold: var(--color--trans--text--tap);
 
