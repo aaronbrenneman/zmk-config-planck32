@@ -11,8 +11,6 @@ parse_config:
   raw_binding_map:
     # Layers
     "&mo 1": $$mdi:numeric$$    
-    "&mo 2": $$mdi:symbol$$
-    "&mo 3": $$mdi:dunction$$
     
   # ZMK
   zmk_keycode_map:
@@ -64,8 +62,6 @@ parse_config:
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
-    # "Meh" key
-    DOT: $$mdi:star-three-points$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
