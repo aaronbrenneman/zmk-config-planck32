@@ -652,14 +652,16 @@ parse_config:
       arc_scale: 2.03
     cb_alt:
       align: bottom
+      arc_scale: 2.03
     cb_q:
-      align: top
+      align: top      
+      arc_scale: 2.03
    #   offset: 0.04
     cb_shftl:
       align: top
    #   offset: 0.15
     cb_shftr:
-      align: bottom
+      align: top
    #   offset: 0.15
     combo_minus:
       key:
