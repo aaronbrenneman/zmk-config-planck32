@@ -82,8 +82,8 @@ layers:
   - F12
   - 'Sft+ #'
   - {t: Sft+ \, s: Sft+ |}
-  - HOME
-  - END
+  - $$mdi:chevron-triple-left$$
+  - $$mdi:chevron-triple-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -131,8 +131,8 @@ layers:
   - F12
   - '#'
   - {t: \, s: '|'}
-  - PG UP
-  - PG DN
+  - $$mdi:page-first$$
+  - $$mdi:page-last$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
