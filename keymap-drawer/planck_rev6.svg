@@ -640,8 +640,10 @@ path.combo {
 <text x="609" y="58" class="combo tap">]</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="4" ry="4" x="46" y="39" width="25" height="38" class="combo"/>
-<text x="58" y="58" class="combo tap">Q</text>
+<path d="M58,88 h-23 a6.0,6.0 0 0 1 -6.0,-6.0 v24" class="combo"/>
+<path d="M58,88 h23 a6.0,6.0 0 0 0 6.0,-6.0 v-34" class="combo"/>
+<rect rx="4" ry="4" x="46" y="69" width="25" height="38" class="combo"/>
+<text x="58" y="88" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-13">
 <rect rx="4" ry="4" x="626" y="126" width="25" height="38" class="combo"/>
