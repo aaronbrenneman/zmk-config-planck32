@@ -655,13 +655,13 @@ parse_config:
       arc_scale: 2.03
     cb_q:
       align: top      
-      arc_scale: 2.03
+    #  arc_scale: 2.03
    #   offset: 0.04
-    cb_shftl:
-      align: top
+     #cb_shftl:
+     # align: top
    #   offset: 0.15
-    cb_shftr:
-      align: top
+   # cb_shftr:
+    #  align: top
    #   offset: 0.15
     combo_minus:
       key:
