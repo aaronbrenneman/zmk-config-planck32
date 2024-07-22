@@ -505,7 +505,6 @@ parse_config:
     APOS: .
     DOUBLE_QUOTES: '"'
     DQT: '"'
-
     LESS_THAN: <
     LT: <
     DOT:
@@ -591,7 +590,11 @@ parse_config:
     UP: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
-    RIGHT: $$mdi:arrow-right-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$    
+    PG_UP: $$mdi:page-first$$
+    PG_DN: $$mdi:page-last$$
+    HOME: $$mdi:chevron-triple-left$$
+    END: $$mdi:chevron-triple-right$$
 
     # Whitespace
     ENTER:
@@ -655,11 +658,7 @@ parse_config:
       arc_scale: 2.03
     cb_q:
       align: top      
-    #  arc_scale: 2.03
-   #   offset: 0.04
-     #cb_shftl:
-     # align: top
-   #   offset: 0.15
+      offset: 1.04
    # cb_shftr:
     #  align: top
    #   offset: 0.15
