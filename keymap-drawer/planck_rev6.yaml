@@ -255,7 +255,7 @@ combos:
 - p: [39, 40]
   k: {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
-  arc_scale: 1.03
+  arc_scale: 2.03
 - p: [43, 44]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
@@ -283,12 +283,9 @@ combos:
   k: Q
   l: [_bas]
   a: top
-  o: 0.04
 - p: [35, 34]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
-  o: 0.15
 - p: [24, 25]
   k: $$mdi:apple-keyboard-shift$$
   a: top
-  o: 0.15
