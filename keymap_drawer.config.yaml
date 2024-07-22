@@ -656,9 +656,9 @@ parse_config:
     cb_alt:
       align: bottom
       arc_scale: 2.03
-    #cb_q:
+    cb_q:
     #  align: top      
-     # offset: 1.04
+      offset: .54
    # cb_shftr:
     #  align: top
    #   offset: 0.15
