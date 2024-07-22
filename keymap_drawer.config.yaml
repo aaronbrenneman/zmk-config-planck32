@@ -649,18 +649,18 @@ parse_config:
     cb_gui:
       align: bottom
      # o: 2.12  
-      arc_scale: 1.03
+      arc_scale: 2.03
     cb_alt:
       align: bottom
     cb_q:
       align: top
-      offset: 0.04
+   #   offset: 0.04
     cb_shftl:
       align: top
-      offset: 0.15
+   #   offset: 0.15
     cb_shftr:
       align: bottom
-      offset: 0.15
+   #   offset: 0.15
     combo_minus:
       key:
         shifted: "_"
