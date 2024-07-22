@@ -286,5 +286,9 @@ combos:
   o: 0.04
 - p: [35, 34]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  a: bottom
+  o: 0.15
 - p: [24, 25]
   k: $$mdi:apple-keyboard-shift$$
+  a: top
+  o: 0.15
