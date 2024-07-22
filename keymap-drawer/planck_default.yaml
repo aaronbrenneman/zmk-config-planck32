@@ -93,10 +93,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:skip-next$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:play-pause$$
+  - NEXT
+  - VOL DN
+  - VOL UP
+  - PP
   raise:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -142,7 +142,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - $$mdi:skip-next$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:play-pause$$
+  - NEXT
+  - VOL DN
+  - VOL UP
+  - PP
