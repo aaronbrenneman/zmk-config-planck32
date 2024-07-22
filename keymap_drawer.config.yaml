@@ -349,9 +349,6 @@ draw_config:
         --color--key--text--hold: var(--color--ghost--text--hold);
     }
 
-    sticky_label {
-        text-anchor: bottom;
-    }
     /*
      * Overrides
      */
@@ -363,9 +360,6 @@ draw_config:
     }
     .hold.mdi\:bluetooth {
       translate: 25px -25px;
-    }
-    .sticky_label.mdi\:gesture-tap-hold {
-      translate: 0px -55px;
     }
 
 parse_config:
@@ -661,8 +655,11 @@ parse_config:
     cb_q:
       align: top
       offset: 0.04
-    combo_mute:
+    cb_shftl:
       align: top
+      offset: 0.15
+    cb_shftr:
+      align: bottom
       offset: 0.15
     combo_minus:
       key:
