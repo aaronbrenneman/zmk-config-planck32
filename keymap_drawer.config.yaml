@@ -192,7 +192,7 @@ draw_config:
     .trans {
         --color--key--bg: var(--color--material--purple--200);
         --color--key--border: var(--color--material--purple--100);
-        --color--key--text--tap: var(--color--material--purple--50);
+        --color--key--text--tap: var(--color--material--purple--050);
         --color--key--text--shifted: var(--color--trans--text--shifted);
         --color--key--text--hold: var(--color--trans--text--hold);
     }
