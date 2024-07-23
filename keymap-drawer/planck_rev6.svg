@@ -154,21 +154,6 @@ svg.keymap {
     --color--material--red--a400: rgb(255, 23, 68);
     --color--material--red--a700: rgb(213, 0, 0);
 
-    --color--material--teal--50: rgb(224, 242, 241);
-    --color--material--teal--100: rgb(178, 223, 219);
-    --color--material--teal--200: rgb(128, 203, 196);
-    --color--material--teal--300: rgb(77, 182, 172);
-    --color--material--teal--400: rgb(38, 166, 154);
-    --color--material--teal--500: rgb(0, 150, 136);
-    --color--material--teal--600: rgb(0, 137, 123);
-    --color--material--teal--700: rgb(0, 121, 107);
-    --color--material--teal--800: rgb(0, 105, 92);
-    --color--material--teal--900: rgb(0, 77, 64);
-    --color--material--teal--a100: rgb(167, 255, 235);
-    --color--material--teal--a200: rgb(100, 255, 218);
-    --color--material--teal--a400: rgb(29, 233, 182);
-    --color--material--teal--a700: rgb(0, 191, 165);
-
     --color--turquoise--500: rgb(51, 204, 204);
 
     --color--bg: transparent;
