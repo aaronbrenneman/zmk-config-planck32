@@ -124,7 +124,7 @@
   //────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
   &none         &kp TILDE     &kp GRAVE    &kp PIPE      &none             X2  &none         &kp HOME      &kp UP        &kp END       &none        
   &kp EXCL      &kp AT        &kp POUND    &kp DLLR      &none             X2  &none         &kp LEFT      &kp DOWN      &kp RIGHT     &kp ESC      
-  &kp QMARK     &kp CARET     &kp AMPS     &kp PRCNT     &none             X2  &none         &kp PG_UP     &none         &kp PG_ DN    &none  
+  &kp QMARK     &kp CARET     &kp AMPS     &kp PRCNT     &none             X2  &none         &kp PG_UP     &none         &kp PG_DN     &none  
   //────────────┴─────────────┴─────────────┼─────────────┼─────────────┤ ├──┤ ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯   
   X3                                       &trans        &trans            X2  &trans        &sl 3         X3   
   //                                        ╰─────────────┴─────────────╯ ╰──╯ ╰─────────────┴─────────────╯ 
