@@ -109,21 +109,6 @@ svg.keymap {
     --color--material--blue-gray--800: rgb(55, 71, 79);
     --color--material--blue-gray--900: rgb(38, 50, 56);
 
-    --color--material--blue-light--50: rgb(225, 245, 254);
-    --color--material--blue-light--100: rgb(179, 229, 252);
-    --color--material--blue-light--200: rgb(129, 212, 250);
-    --color--material--blue-light--300: rgb(79, 195, 247);
-    --color--material--blue-light--400: rgb(41, 182, 246);
-    --color--material--blue-light--500: rgb(3, 169, 244);
-    --color--material--blue-light--600: rgb(3, 155, 229);
-    --color--material--blue-light--700: rgb(2, 136, 209);
-    --color--material--blue-light--800: rgb(2, 119, 189);
-    --color--material--blue-light--900: rgb(1, 87, 155);
-    --color--material--blue-light--a100: rgb(128, 216, 255);
-    --color--material--blue-light--a200: rgb(64, 196, 255);
-    --color--material--blue-light--a400: rgb(0, 176, 255);
-    --color--material--blue-light--a700: rgb(0, 145, 234);
-
     --color--material--purple--50: rgb(243, 229, 245);
     --color--material--purple--100: rgb(225, 190, 231);
     --color--material--purple--200: rgb(206, 147, 216);
@@ -138,21 +123,6 @@ svg.keymap {
     --color--material--purple--a200: rgb(224, 64, 251);
     --color--material--purple--a400: rgb(213, 0, 249);
     --color--material--purple--a700: rgb(170, 0, 255);
-
-    --color--material--red--50: rgb(255, 235, 238);
-    --color--material--red--100: rgb(255, 205, 210);
-    --color--material--red--200: rgb(239, 154, 154);
-    --color--material--red--300: rgb(229, 115, 115);
-    --color--material--red--400: rgb(239, 83, 80);
-    --color--material--red--500: rgb(244, 67, 54);
-    --color--material--red--600: rgb(229, 57, 53);
-    --color--material--red--700: rgb(211, 47, 47);
-    --color--material--red--800: rgb(198, 40, 40);
-    --color--material--red--900: rgb(183, 28, 28);
-    --color--material--red--a100: rgb(255, 138, 128);
-    --color--material--red--a200: rgb(255, 82, 82);
-    --color--material--red--a400: rgb(255, 23, 68);
-    --color--material--red--a700: rgb(213, 0, 0);
 
     --color--turquoise--500: rgb(51, 204, 204);
 
@@ -260,7 +230,7 @@ rect.combo {
  * Combos
  */
 .combo {
-    --color--key--bg: var(--color--material--purple--100);
+    --color--key--bg: var(--color--material--purple--400);
     --color--key--border: var(--color--combo--border);
     --color--key--text--tap: var(--color--combo--text--tap);
     --color--key--text--shifted: var(--color--combo--text--shifted);
@@ -300,7 +270,7 @@ path.combo {
   opacity: 0.4;
 }
 .trans {
-    --color--key--bg: var(--color--material--purple--900);
+    --color--key--bg: var(--color--material--purple--400);
     --color--key--border: var(--color--material--purple--100);
     --color--key--text--tap: var(--color--material--purple--50);
     --color--key--text--shifted: var(--color--trans--text--shifted);
@@ -319,19 +289,6 @@ path.combo {
     --color--key--text--tap: var(--color--ghost--text--tap);
     --color--key--text--shifted: var(--color--ghost--text--shifted);
     --color--key--text--hold: var(--color--ghost--text--hold);
-}
-
-/*
- * Overrides
- */
-.shifted.mdi\:alpha-w-box {
-  translate: 25px 0px;
-}
-.shifted.mdi\:usb {
-  translate: -25px 25px;
-}
-.hold.mdi\:bluetooth {
-  translate: 25px -25px;
 }
 </style>
 <g transform="translate(27, 0)" class="layer-_bas">
