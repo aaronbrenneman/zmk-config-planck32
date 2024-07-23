@@ -239,7 +239,7 @@ draw_config:
      * Transparent, None, and Ghost Keys
      */
     .trans{
-      opacity: 0.91;
+      opacity: 0.9;
     },
     .none {
       opacity: 0.1;
@@ -248,7 +248,7 @@ draw_config:
       opacity: 0.4;
     }
     .trans {
-        --color--key--bg: var(--color--material--purple--400);
+        --color--key--bg: var(--color--material--purple--200);
         --color--key--border: var(--color--material--purple--100);
         --color--key--text--tap: var(--color--material--purple--50);
         --color--key--text--shifted: var(--color--trans--text--shifted);
