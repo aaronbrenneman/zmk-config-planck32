@@ -70,8 +70,6 @@ draw_config:
         --color--material--purple--100: rgb(225, 190, 231);
         --color--material--purple--200: rgb(206, 147, 216);
 
-        --color--turquoise--500: rgb(51, 204, 204);
-
         --color--bg: transparent;
         --color--text: var(--color--material--blue-gray--500);
 
@@ -80,8 +78,8 @@ draw_config:
         --color--key--bg: var(--color--material--blue-gray--50);
         --color--key--border: white;
         --color--key--text--tap: var(--color--text);
-        #--color--key--text--shifted: var(--color--material--blue-gray--500);
-        --color--key--text--shifted: transparent;
+        --color--key--text--shifted: var(--color--material--blue-gray--500);
+        #--color--key--text--shifted: transparent;
         --color--key--text--hold: var(--color--material--blue-gray--500);
 
         --color--combo--bg: var(--color--material--blue-gray--100);
@@ -102,12 +100,6 @@ draw_config:
         --color--none--text--tap: var(--color--trans--text--tap);
         --color--none--text--shifted: var(--color--trans--text--shifted);
         --color--none--text--hold: var(--color--trans--text--hold);
-
-        --color--ghost--bg: var(--color--trans--bg);
-        --color--ghost--border: var(--color--trans--border);
-        --color--ghost--text--tap: var(--color--trans--text--tap);
-        --color--ghost--text--shifted: var(--color--trans--text--shifted);
-        --color--ghost--text--hold: var(--color--trans--text--shifted);
 
         /*
          * ====================
