@@ -1,59 +1,5 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
-
-#define XXX &none
-#define ___ &trans
-
-/* map Planck's extra keys */
-#define X_MT  &none &none                // top row,     middle
-#define X_MM  &none &none                // middle row,  middle
-#define X_MB  &none &none                // bottom row,  middle
-#define X_MH  &none &none                // thumb row,   middle
-#define X_LH  &none &none &none          // thumb row,   left
-#define X_RH  &none &none &none          // thumb row,   right
-
-/* left of left half */
-#if !defined X_LT  // top row, left
-    #define X_LT
-#endif
-#if !defined X_LM  // middle row, left
-    #define X_LM
-#endif
-#if !defined X_LB  // bottom row, left
-    #define X_LB
-#endif
-#if !defined X_LH  // thumb row, left
-    #define X_LH
-#endif
-
-/* between left and right half */
-#if !defined X_MT  // top row, middle
-    #define X_MT
-#endif
-#if !defined X_MM  // middle row, middle
-    #define X_MM
-#endif
-#if !defined X_MB  // bottom row, middle
-    #define X_MB
-#endif
-#if !defined X_MH  // thumb row, middle
-    #define X_MH
-#endif
-
-/* right of right half */
-#if !defined X_RT  // top row, right
-    #define X_RT
-#endif
-#if !defined X_RM  // middle row, right
-    #define X_RM
-#endif
-#if !defined X_RB  // bottom row, right
-    #define X_RB
-#endif
-#if !defined X_RH  // thumb row, right
-    #define X_RH
-#endif
 
 / {
     combos {
@@ -149,13 +95,13 @@
         _bas {
             bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT         &none        &kp W          &kp E          &kp R         &kp T        X_MT     &kp Y          &kp U          &kp I          &kp O        &none         X_RT
+             &none        &kp W          &kp E          &kp R         &kp T         &none &none     &kp Y          &kp U          &kp I          &kp O        &none         
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM         &kp A        &kp S          &kp D          &kp F         &kp G      X_MM     &kp H          &kp J          &kp K          &kp L        &kp P         X_RM
+             &kp A        &kp S          &kp D          &kp F         &kp G         &none &none     &kp H          &kp J          &kp K          &kp L        &kp P         
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB         &kp Z        &kp X          &kp C          &kp V         &kp B      X_MB     &kp N          &kp M          &kp COMMA      &kp DOT      &kp SEMI      X_RB
+             &kp Z        &kp X          &kp C          &kp V         &kp B         &none &none     &kp N          &kp M          &kp COMMA      &kp DOT      &kp SEMI      
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-    X_LH                                                  &mo 2       &kp SPACE      X_MH     &kp ENTER      &mo 1                                                    X_RH
+            &none &none &none                           &mo 2         &kp SPACE     &none &none     &kp ENTER      &mo 1          &none &none &none
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
             >;
         };
@@ -163,13 +109,13 @@
         _num {
             bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT        XXX         &kp BSLH      &kp STAR     &kp FSLH       &none        X_MT       &none         &kp N4          &kp N5      &kp N6      &none           X_RT
+            XXX         &kp BSLH      &kp STAR     &kp FSLH       &none             &none &none       &none         &kp N4          &kp N5      &kp N6      &none             
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM        &kp DOT       &kp SQT       &kp UNDER    &kp MINUS      &none        X_MM       &none         &kp N1          &kp N2      &kp N3      &kp N0          X_RM
+           &kp DOT       &kp SQT       &kp UNDER    &kp MINUS      &none            &none &none       &none         &kp N1          &kp N2      &kp N3      &kp N0          
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB        XXX         &kp DQT       &kp EQUAL    &kp PLUS       &none        X_MB       &none         &kp N7          &kp N8      &kp N9      &none           X_RB
+            XXX         &kp DQT       &kp EQUAL    &kp PLUS       &none             &none &none       &none         &kp N7          &kp N8      &kp N9      &none             
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-    X_LH                                                   ___           ___         X_MH        ___           ___                                                    X_RH
+   &none &none &none                                       &trans     &trans        &none &none       &trans    &trans       &none &none &none                                             
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
             >;
         };
@@ -177,13 +123,13 @@
         _nav {
             bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     XXX            &kp TILDE      &kp GRAVE  &kp PIPE       &none           X_MT     &none          &kp HOME       &kp UP        &kp END        &none        X_RT
+        XXX            &kp TILDE      &kp GRAVE  &kp PIPE       &none               &none &none   &none          &kp HOME       &kp UP        &kp END        &none        
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &kp EXCL       &kp AT         &kp POUND  &kp DLLR       &none           X_MM     &none          &kp LEFT       &kp DOWN      &kp RIGHT      &kp ESC      X_RM
+        &kp EXCL       &kp AT         &kp POUND  &kp DLLR       &none               &none &none   &none          &kp LEFT       &kp DOWN      &kp RIGHT      &kp ESC      
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &kp QMARK      &kp CARET      &kp AMPS   &kp PRCNT      &none           X_MB     &none          &kp PG_UP       &none        &kp PG_DN      &none        X_RB
+         &kp QMARK      &kp CARET      &kp AMPS   &kp PRCNT      &none              &none &none   &none          &kp PG_UP       &none        &kp PG_DN      &none        
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-    X_LH                                               ___           ___             X_MH         ___           &sl 3                                                 X_RH
+   &none &none &none                                  &trans           &trans       &none &none  &trans           &sl 3   &none &none &none                                              
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
             >;
         };
@@ -191,13 +137,13 @@
         _fun {
             bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT      ___           ___           ___           ___           ___            X_MT     ___           &kp F4          &kp F5       &kp F6        ___             X_RT
+          &none           &none         &none           &none      &none            &none &none     &none           &kp F4          &kp F5       &kp F6        &none        
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     ___           ___           ___           ___           ___             X_MM     &kp F11       &kp F1          &kp F2       &kp F3          &kp F10      X_RM
+         &none           &none           &none           &none      &none           &none &none     &kp F11       &kp F1          &kp F2       &kp F3          &kp F10      
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB      ___           ___           ___           ___           ___            X_MB     &kp F12          &kp F7      &kp F8        &kp F9          ___        X_RB
+          &none           &none           &none           &none     &none           &none &none     &kp F12          &kp F7      &kp F8        &kp F9          &none        
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-    X_LH                                               ___           ___             X_MH     ___           ___                                                       X_RH
+   &none &none &none                                 &trans           &trans        &none &none     &trans     &trans      &none &none &none                                                 
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
             >;
         };
