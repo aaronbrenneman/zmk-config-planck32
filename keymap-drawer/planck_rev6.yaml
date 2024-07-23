@@ -205,11 +205,11 @@ combos:
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [39, 40]
   k: {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
-  a: bottom
+  a: left
   arc_scale: 2.03
 - p: [43, 44]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  a: bottom
+  a: right
   arc_scale: 2.03
 - p: [10, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
