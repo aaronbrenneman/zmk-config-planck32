@@ -616,4 +616,4 @@ parse_config:
       arc_scale: 2.03
     cb_q:
       align: left
-      offset: 1.5
+      #offset: 1.5
