@@ -84,7 +84,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:page-first$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PG  DN
+  - $$mdi:page-last$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
