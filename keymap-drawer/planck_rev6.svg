@@ -71,11 +71,6 @@ svg path {
 
 /* font and background color specifications */
 svg.keymap {
-    /*
-     * ====================
-     * Theme Variables
-     * ====================
-     */
 
     --logo-path: none;
     --logo-size: 12%;
@@ -83,26 +78,23 @@ svg.keymap {
 
     /* === Colors === */
 
-    --color--material--blue-gray--50: rgb(236, 239, 241);
+    --color--material--blue-gray--050: rgb(236, 239, 241);
     --color--material--blue-gray--100: rgb(207, 216, 220);
     --color--material--blue-gray--500: rgb(96, 125, 139);
     --color--material--blue-gray--900: rgb(38, 50, 56);
 
-    --color--material--purple--50: rgb(243, 229, 245);
+    --color--material--purple--050: rgb(243, 229, 245);
     --color--material--purple--100: rgb(225, 190, 231);
     --color--material--purple--200: rgb(206, 147, 216);
-
-    --color--turquoise--500: rgb(51, 204, 204);
 
     --color--bg: transparent;
     --color--text: var(--color--material--blue-gray--500);
 
     --color--layer--text: var(--color--material--blue-gray--500);
 
-    --color--key--bg: var(--color--material--blue-gray--50);
+    --color--key--bg: var(--color--material--blue-gray--050);
     --color--key--border: white;
     --color--key--text--tap: var(--color--text);
-    #--color--key--text--shifted: var(--color--material--blue-gray--500);
     --color--key--text--shifted: transparent;
     --color--key--text--hold: var(--color--material--blue-gray--500);
 
@@ -124,18 +116,6 @@ svg.keymap {
     --color--none--text--tap: var(--color--trans--text--tap);
     --color--none--text--shifted: var(--color--trans--text--shifted);
     --color--none--text--hold: var(--color--trans--text--hold);
-
-    --color--ghost--bg: var(--color--trans--bg);
-    --color--ghost--border: var(--color--trans--border);
-    --color--ghost--text--tap: var(--color--trans--text--tap);
-    --color--ghost--text--shifted: var(--color--trans--text--shifted);
-    --color--ghost--text--hold: var(--color--trans--text--shifted);
-
-    /*
-     * ====================
-     * /End Theme Variables
-     * ====================
-     */
 
     font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
     font-size: 18px;
@@ -161,6 +141,7 @@ text {
 }
 
 /* Layer labels */
+
 text.label {
     font-weight: bold;
     text-anchor: start;
@@ -169,8 +150,8 @@ text.label {
     dominant-baseline: text-before-edge;
 }
 
-
 /* Keys */
+
 rect.key,
 rect.combo {
     fill: var(--color--key--bg);
@@ -194,9 +175,8 @@ rect.combo {
     fill: var(--color--key--text--hold);
 }
 
-/*
- * Combos
- */
+/* combos     */
+
 .combo {
     --color--key--bg: var(--color--material--purple--100);
     --color--key--border: var(--color--combo--border);
@@ -225,17 +205,11 @@ path.combo {
     /* translate: 2px 0px; */
 }
 
-/*
- * Transparent, None, and Ghost Keys
- */
-.trans{
-  opacity: 0.9;
-},
+/* trans and none     */
+
+.trans,
 .none {
   opacity: 0.1;
-},
-.ghost {
-  opacity: 0.4;
 }
 .trans {
     --color--key--bg: var(--color--material--purple--200);
@@ -250,13 +224,6 @@ path.combo {
     --color--key--text--tap: transparent;
     --color--key--text--shifted: transparent;
     --color--key--text--hold: transparent;
-}
-.ghost {
-    --color--key--bg: var(--color--ghost--bg);
-    --color--key--border: var(--color--ghost--border);
-    --color--key--text--tap: var(--color--ghost--text--tap);
-    --color--key--text--shifted: var(--color--ghost--text--shifted);
-    --color--key--text--hold: var(--color--ghost--text--hold);
 }
 </style>
 <g transform="translate(27, 0)" class="layer-_bas">
