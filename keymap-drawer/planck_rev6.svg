@@ -100,13 +100,7 @@ svg.keymap {
 
     --color--material--blue-gray--50: rgb(236, 239, 241);
     --color--material--blue-gray--100: rgb(207, 216, 220);
-    --color--material--blue-gray--200: rgb(176, 190, 197);
-    --color--material--blue-gray--300: rgb(144, 164, 174);
-    --color--material--blue-gray--400: rgb(120, 144, 156);
     --color--material--blue-gray--500: rgb(96, 125, 139);
-    --color--material--blue-gray--600: rgb(84, 110, 122);
-    --color--material--blue-gray--700: rgb(69, 90, 100);
-    --color--material--blue-gray--800: rgb(55, 71, 79);
     --color--material--blue-gray--900: rgb(38, 50, 56);
 
     --color--material--purple--50: rgb(243, 229, 245);
@@ -116,9 +110,9 @@ svg.keymap {
     --color--turquoise--500: rgb(51, 204, 204);
 
     --color--bg: transparent;
-    --color--text: var(--color--material--blue-gray--900);
+    --color--text: var(--color--material--blue-gray--500);
 
-    --color--layer--text: var(--color--material--blue-gray--400);
+    --color--layer--text: var(--color--material--blue-gray--500);
 
     --color--key--bg: var(--color--material--blue-gray--50);
     --color--key--border: white;
@@ -130,8 +124,8 @@ svg.keymap {
     --color--combo--bg: var(--color--material--blue-gray--100);
     --color--combo--border: var(--color--combo--bg);
     --color--combo--dendron: var(--color--combo--border);
-    --color--combo--text--tap: var(--color--material--blue-gray--800);
-    --color--combo--text--shifted: var(--color--material--blue-gray--400);
+    --color--combo--text--tap: var(--color--material--blue-gray--900);
+    --color--combo--text--shifted: var(--color--material--blue-gray--500);
     --color--combo--text--hold: var(--color--combo--text--tap);
 
     --color--trans--bg: transparent;
