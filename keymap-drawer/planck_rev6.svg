@@ -18,9 +18,6 @@
 <svg id="mdi:arrow-left-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
 </svg>
-<svg id="mdi:arrow-right-bold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold" viewBox="0 0 24 24"><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg>
-</svg>
 <svg id="mdi:arrow-up-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold" viewBox="0 0 24 24"><path d="M15,20H9V12H4.16L12,4.16L19.84,12H15V20Z" /></svg>
 </svg>
@@ -56,9 +53,6 @@
 </svg>
 <svg id="mdi:page-first">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-page-first" viewBox="0 0 24 24"><path d="M18.41,16.59L13.82,12L18.41,7.41L17,6L11,12L17,18L18.41,16.59M6,6H8V18H6V6Z" /></svg>
-</svg>
-<svg id="mdi:page-last">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-page-last" viewBox="0 0 24 24"><path d="M5.59,7.41L10.18,12L5.59,16.59L7,18L13,12L7,6L5.59,7.41M16,6H18V18H16V6Z" /></svg>
 </svg>
 <svg id="mdi:transfer">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer" viewBox="0 0 24 24"><path d="M8 4A2 2 0 0 0 6 6V10H8V6H16V9H13.5L17 12.5L20.5 9H18V6A2 2 0 0 0 16 4H8M3 12V14H11V12H3M3 15V17H11V15H3M13 15V17H21V15H13M3 18V20H11V18H3M13 18V20H21V18H13Z" /></svg>
@@ -621,8 +615,9 @@ path.combo {
 </g>
 <g transform="translate(29, 87)" class="key keypos-12">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<text x="0" y="0" class="key tap">.</text>
-<text x="0" y="-23" class="key shifted">&gt;</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em">D</tspan><tspan x="0" dy="1.0em">OT</tspan>
+</text>
 </g>
 <g transform="translate(87, 87)" class="key keypos-13">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
@@ -895,7 +890,9 @@ path.combo {
 </g>
 <g transform="translate(29, 87)" class="key keypos-12">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<text x="0" y="0" class="key tap">!</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em">E</tspan><tspan x="0" dy="1.0em">XCL</tspan>
+</text>
 </g>
 <g transform="translate(87, 87)" class="key keypos-13">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
@@ -935,7 +932,9 @@ path.combo {
 </g>
 <g transform="translate(609, 87)" class="key keypos-22">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em">RIG</tspan><tspan x="0" dy="1.0em">HT</tspan>
+</text>
 </g>
 <g transform="translate(667, 87)" class="key keypos-23">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
@@ -943,7 +942,9 @@ path.combo {
 </g>
 <g transform="translate(29, 145)" class="key keypos-24">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em">Q</tspan><tspan x="0" dy="1.0em">MARK</tspan>
+</text>
 </g>
 <g transform="translate(87, 145)" class="key keypos-25">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
@@ -983,7 +984,7 @@ path.combo {
 </g>
 <g transform="translate(609, 145)" class="key keypos-34">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<use href="#mdi:page-last" xlink:href="#mdi:page-last" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:page-last"/>
+<text x="0" y="0" class="key tap">PG DN</text>
 </g>
 <g transform="translate(667, 145)" class="key none keypos-35">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
