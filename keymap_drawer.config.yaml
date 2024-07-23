@@ -61,21 +61,6 @@ draw_config:
 
         /* === Colors === */
 
-        --color--material--blue--50: rgb(227, 242, 253);
-        --color--material--blue--100: rgb(187, 222, 251);
-        --color--material--blue--200: rgb(144, 202, 249);
-        --color--material--blue--300: rgb(100, 181, 246);
-        --color--material--blue--400: rgb(66, 165, 245);
-        --color--material--blue--500: rgb(33, 150, 243);
-        --color--material--blue--600: rgb(30, 136, 229);
-        --color--material--blue--700: rgb(25, 118, 210);
-        --color--material--blue--800: rgb(21, 101, 192);
-        --color--material--blue--900: rgb(13, 71, 161);
-        --color--material--blue--a100: rgb(130, 177, 255);
-        --color--material--blue--a200: rgb(68, 138, 255);
-        --color--material--blue--a400: rgb(41, 121, 255);
-        --color--material--blue--a700: rgb(41, 98, 255);
-
         --color--material--blue-gray--50: rgb(236, 239, 241);
         --color--material--blue-gray--100: rgb(207, 216, 220);
         --color--material--blue-gray--500: rgb(96, 125, 139);
@@ -108,7 +93,7 @@ draw_config:
 
         --color--trans--bg: transparent;
         --color--trans--border: var(--color--trans--bg);
-        --color--trans--text--tap: var(--color--trans--border);
+        --color--trans--text--tap: var(--color--material--blue-gray--900);
         --color--trans--text--shifted: var(--color--trans--text--tap);
         --color--trans--text--hold: var(--color--trans--text--tap);
 
