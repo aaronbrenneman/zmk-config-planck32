@@ -1,7 +1,6 @@
 layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
   _bas:
-  - '&X_LT'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - W
   - E
@@ -13,7 +12,7 @@ layers:
   - U
   - I
   - O
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - A
   - S
   - D
@@ -25,7 +24,7 @@ layers:
   - J
   - K
   - L
-  - P X RM X LB
+  - P
   - Z
   - X
   - C
@@ -37,7 +36,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - SEMI X RB
+  - {t: ;, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -51,7 +50,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   _num:
-  - '&X_LT'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: \, s: '|'}
   - '*'
@@ -63,7 +61,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ., s: '>'}
   - {t: '''', s: '"'}
   - _
@@ -75,7 +73,7 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - 0 X RM X LB
+  - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '"'
   - {t: '=', s: +}
@@ -87,7 +85,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -101,7 +99,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   _nav:
-  - '&X_LT'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
   - {t: '`', s: '~'}
@@ -113,7 +110,7 @@ layers:
   - $$mdi:chevron-triple-left$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:chevron-triple-right$$
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '!'
   - '@'
   - '#'
@@ -125,7 +122,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - ESC X RM X LB
+  - $$mdi:keyboard-esc$$
   - '?'
   - ^
   - '&'
@@ -137,7 +134,7 @@ layers:
   - $$mdi:page-first$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:page-last$$
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -151,7 +148,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   _fun:
-  - '&X_LT'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -163,7 +159,7 @@ layers:
   - F4
   - F5
   - F6
-  - '&trans X_RT X_LM'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -175,7 +171,7 @@ layers:
   - F1
   - F2
   - F3
-  - F10 X RM X LB
+  - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -187,7 +183,7 @@ layers:
   - F7
   - F8
   - F9
-  - '&trans X_RB'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
