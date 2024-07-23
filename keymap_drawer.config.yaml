@@ -208,7 +208,7 @@ draw_config:
      * Combos
      */
     .combo {
-        --color--key--bg: var(--color--material--purple--400);
+        --color--key--bg: var(--color--material--purple--100);
         --color--key--border: var(--color--combo--border);
         --color--key--text--tap: var(--color--combo--text--tap);
         --color--key--text--shifted: var(--color--combo--text--shifted);
