@@ -515,11 +515,11 @@ parse_config:
 
   zmk_combos:
     cb_gui:
-      align: bottom
+      align: left
      # o: 2.12  
       arc_scale: 2.03
     cb_alt:
-      align: bottom
+      align: right
       arc_scale: 2.03
     cb_q:
       align: left
