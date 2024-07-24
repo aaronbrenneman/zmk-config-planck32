@@ -117,8 +117,8 @@ svg.keymap {
     --color--none--text--tap: var(--color--none--bg);
     --color--none--text--shifted: var(--color--none--bg);
     --color--none--text--hold: var(--color--none--bg);
-
-    font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  
+    font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
     font-size: 18px;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
@@ -153,6 +153,10 @@ text.label {
 
 /* Keys */
 
+/* Color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #ffc;
+}
 rect.key,
 rect.combo {
     fill: var(--color--key--bg);
