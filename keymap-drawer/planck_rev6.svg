@@ -156,11 +156,13 @@ text.label {
 /* Keys */
 
 /* Color accent for held keys */
-rect.hold, 
-rect.combo.hold,
+rect.held, 
+rect.combo.held {
+    fill: var(--color--material--blue-musk--000);
+}
 rect.key,
 rect.combo {
-    fill: var(--color--material--blue-musk--000);
+    fill: var(--color--key--bg);
     stroke: var(--color--key--border);
 }
 .tap {
