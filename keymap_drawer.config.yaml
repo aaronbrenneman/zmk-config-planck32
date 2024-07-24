@@ -131,14 +131,12 @@ draw_config:
         dominant-baseline: text-before-edge;
     }
 
-    /* keys */
-    rect.key,
-    rect.combo {
-        fill: var(--color--key--bg);
+    /* Keys */
 
-    /* color accent for held keys */
+    /* Color accent for held keys */
     rect.hold, 
     rect.combo.hold,
+    rect.key,
     rect.combo {
         fill: var(--color--material--blue-musk--000);
         stroke: var(--color--key--border);
