@@ -64,13 +64,12 @@ draw_config:
         --cerul: #3c7a89ff;
         --charc: #2e4756ff;
         --gunme: #16262eff;
-
-        /* ones i like */
-        --eggsh: rgb(244, 241, 222);
-        --sunse: rgb(242, 204, 143);
-        --jaspe: rgb(192, 87, 70);
-        --battl: rgb(121, 132, 120);
-        --thstl: rgb(221, 189, 213);
+        --eggsh: #f4f1deff;
+        --sunst: #f5d6a3ff;
+        --chrcl: #2e4756ff;
+        --blkbn: #2f0601ff;
+        --mgnta: #d14081ff;
+        --thstl: #dcbdcfff;
 
         /* flipper */
         --color-01: var(--alaba);
