@@ -199,6 +199,7 @@ rect.combo {
 /* color accent for held keys */
 rect.held, rect.combo.held {
     fill: var(--color--trans--bg);
+    opacity: 0.75
 }
 
 /* combos     */
@@ -235,7 +236,7 @@ path.combo {
 
 .trans,
 .none {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .trans {
     --color--key--bg: var(--color--trans--bg);
