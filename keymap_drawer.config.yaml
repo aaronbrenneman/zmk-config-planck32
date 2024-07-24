@@ -63,7 +63,7 @@ draw_config:
         --color--material--blue-gray--500: rgb(96, 125, 139);
         --color--material--blue-gray--900: rgb(38, 50, 56);
 
-        --color--material--blue-musk--000: rgb(72, 117, 189);
+        --color--material--blue-musk--000: rgb(1, 46, 130);
 
         --color--material--purple--050: rgb(243, 229, 245);
         --color--material--purple--100: rgb(225, 190, 231);
@@ -153,9 +153,14 @@ draw_config:
     }
     .hold {
         dominant-baseline: ideographic;
-        fill: var(--color--material--blue-musk--000);
+        fill: var(--color--key--text--hold);
     }
 
+    /* color accent for held keys */
+    rect.held, rect.combo.held {
+        fill: var(--color--material--blue-musk--000);
+    }
+    
     /* combos     */
 
     .combo {
