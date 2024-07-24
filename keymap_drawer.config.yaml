@@ -54,39 +54,54 @@ draw_config:
         --logo-size: 12%;
         --logo-position: 49.5% 5%;
 
-        /* === Colors === */
+        /* === define colours === */
 
-        --color--bg: transparent;
-
+        /* legacy */
         --color--material--blue-gray--050: rgb(236, 239, 241);
         --color--material--blue-gray--100: rgb(207, 216, 220);
         --color--material--blue-gray--500: rgb(96, 125, 139);
         --color--material--blue-gray--900: rgb(38, 50, 56);
-
-        --color--material--blue-musk--000: rgb(1, 46, 130);
-
         --color--material--purple--050: rgb(243, 229, 245);
         --color--material--purple--100: rgb(225, 190, 231);
         --color--material--purple--200: rgb(206, 147, 216);
 
-        --color--text: var(--color--material--blue-gray--900);
+        /* autumn */
+        	--color--autumn--01-lght: rgb(215,162,0);
+          --color--autumn--02-lght: rgb(197,101,0);
+          --color--autumn--03-medm: rgb(140,0,0);
+          --color--autumn--04-dark: rgb(96,0,0);
+          --color--autumn--05-dark: rgb(77,39,0);
 
-        --color--layer--text: var(--color--material--blue-gray--500);
+        /* flipper */
+        	--color-01: var(--color--autumn--01-lght);
+          --color-02: var(--color--autumn--02-lght);
+          --color-03: var(--color--autumn--03-medm);
+          --color-04: var(--color--autumn--04-dark);
+          --color-05: var(--color--autumn--05-dark);
+          --color-06: var(--color--material--blue-gray--050);
 
-        --color--key--bg: var(--color--material--blue-gray--100);
+        /* === apply colours === */
+
+        --color--bg: transparent;
+
+        --color--text: var(--color-04);
+
+        --color--layer--text: var(--color-05);
+
+        --color--key--bg: var(--color-01);
         --color--key--border: white;
         --color--key--text--tap: var(--color--text);
         --color--key--text--shifted: transparent;
         --color--key--text--hold: var(--color--text);
 
-        --color--combo--bg: var(--color--material--purple--100);
+        --color--combo--bg: var(--color-02);
         --color--combo--border: var(--color--combo--bg);
         --color--combo--dendron: var(--color--combo--border);
         --color--combo--text--tap: var(--color--text);
         --color--combo--text--shifted: var(--color--combo--bg);
         --color--combo--text--hold: var(--color--combo--text--tap);
 
-        --color--trans--bg: var(--color--material--purple--200);
+        --color--trans--bg: var(--color-02);
         --color--trans--border: var(--color--trans--bg);
         --color--trans--text--tap: var(--color--text);
         --color--trans--text--shifted: var(--color--trans--text--tap);
@@ -158,9 +173,9 @@ draw_config:
 
     /* color accent for held keys */
     rect.held, rect.combo.held {
-        fill: var(--color--material--blue-musk--000);
+        fill: var(--color-06);
     }
-    
+
     /* combos     */
 
     .combo {
