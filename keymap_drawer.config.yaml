@@ -80,13 +80,21 @@ draw_config:
         --prussi: rgb(3, 44, 77);
         --dark-p: rgb(54, 8, 37);
 
+        /* SCSS RGB */
+        --eggsh: rgb(244, 241, 222);
+        --sunse: rgb(242, 204, 143);
+        --delft: rgb(61, 64, 91);
+        --jaspe: rgb(192, 87, 70);
+        --battl: rgb(121, 132, 120);
+        --thstl: rgba(221, 189, 213);
+
         /* flipper */
-        --color-01: var(--bistre);
-        --color-02: var(--chocol);
-        --color-03: var(--sienna);
-        --color-04: var(--brunsw);
-        --color-05: var(--prussi);
-        --color-06: var(--dark-p);
+        --color-01: var(--eggsh);
+        --color-02: var(--sunse);
+        --color-03: var(--delft);
+        --color-04: var(--jaspe);
+        --color-05: var(--battl);
+        --color-06: var(--thstl);
 
         /* === apply colours to keys === */
 
@@ -98,8 +106,8 @@ draw_config:
 
         --color--key--bg: var(--color-01);
         --color--combo--bg: var(--color-02);
-        --color--layer--text: var(--color-01);
-        --color--text: var(--color-05);
+        --color--layer--text: var(--color-03);
+        --color--text: var(--color-04);
         --color--trans--bg: var(--color-05);
         --color--key--bg--held: var(--color-01);
 
