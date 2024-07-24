@@ -99,8 +99,8 @@ svg.keymap {
     --color-03: var(--aspar);
     --color-04: var(--cerul);
     --color-05: var(--charc);
-    --color-06: var(--thstl);
-    --color-07: var(--mgnta);
+    --color-06: var(--sunst);
+    --color-07: var(--thstl);
 
     /* === apply colours to keys === */
 
@@ -114,7 +114,7 @@ svg.keymap {
     --color--combo--bg: var(--color-02);
     --color--text: var(--color-03);
     --color--layer--text: var(--color-04);
-    --color--combo--text--tap: var(---color-05);
+    --color--combo--text--tap: var(--color-05);
     --color--trans--bg: var(--color-06);
     --color--key--bg--held: var(--color-07);
 
