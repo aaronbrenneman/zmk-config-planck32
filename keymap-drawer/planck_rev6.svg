@@ -95,12 +95,12 @@ svg.keymap {
     --color--autumn--05-dark: rgb(77,39,0);
 
     /* bennaton */
-    --bistre: #361c0eff;
-    --chocol: #570211ff;
-    --sienna: #7e3110ff;
-    --brunsw: #004540ff;
-    --prussi: #032c4dff;
-    --dark-p: #360825ff;
+    --bistre: rgba(54, 28, 14, 1);
+    --chocol: rgba(87, 2, 17, 1);
+    --sienna: rgba(126, 49, 16, 1);
+    --brunsw: rgba(0, 69, 64, 1);
+    --prussi: rgba(3, 44, 77, 1);
+    --dark-p: rgb(54, 8, 37, 1);
 
     /* flipper */
     --color-01: var(bistre);
