@@ -94,7 +94,7 @@ svg.keymap {
     --delft: rgb(61, 64, 91);
     --jaspe: rgb(192, 87, 70);
     --battl: rgb(121, 132, 120);
-    --thstl: rgba(221, 189, 213);
+    --thstl: rgb(221, 189, 213);
 
     /* flipper */
     --color-01: var(--eggsh);
@@ -108,7 +108,7 @@ svg.keymap {
 
     /* direct colour assignments */
     --color--bg: transparent;
-    --color--key--border: white;
+    --color--key--border: var(--color-01);
     --color--key--text--shifted: transparent;
     --color--none--bg: transparent;
 
