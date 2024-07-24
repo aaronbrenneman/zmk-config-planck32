@@ -80,18 +80,18 @@ svg.keymap {
 
     /* from https://coolors.co/palettes/popular/6%20colors */
 
-    /* bennaton */
-    --bistre: rgb(54, 28, 14);x
-    --chocol: rgb(87, 2, 17);
-    --sienna: rgb(126, 49, 16);
-    --brunsw: rgb(0, 69, 64);
-    --prussi: rgb(3, 44, 77);
-    --dark-p: rgb(54, 8, 37);
+    --bistr: rgb(54, 28, 14);
+    --choco: rgb(87, 2, 17);
+    --sienn: rgb(126, 49, 16);
+    --bruns: rgb(0, 69, 64);
+    --pruss: rgb(3, 44, 77);
+    --darkp: rgb(54, 8, 37);        
+    --delft: rgb(61, 64, 91);
+    --aspar: #679436ff;
 
-    /* SCSS RGB */
+    /* ones i like */
     --eggsh: rgb(244, 241, 222);
     --sunse: rgb(242, 204, 143);
-    --delft: rgb(61, 64, 91);
     --jaspe: rgb(192, 87, 70);
     --battl: rgb(121, 132, 120);
     --thstl: rgb(221, 189, 213);
@@ -99,9 +99,9 @@ svg.keymap {
     /* flipper */
     --color-01: var(--eggsh);
     --color-02: var(--sunse);
-    --color-03: var(--chocol);
+    --color-03: var(--aspar);
     --color-04: var(--jaspe);
-    --color-05: var(--battl);
+    --color-05: var(--bruns);
     --color-06: var(--thstl);
 
     /* === apply colours to keys === */
