@@ -90,10 +90,10 @@ draw_config:
 
         --color--key--bg: var(--color-01);
         --color--combo--bg: var(--color-02);
-        --color--layer--text: var(--color-04);
+        --color--layer--text: var(--color-01);
         --color--text: var(--color-05);
         --color--trans--bg: var(--color-05);
-        --color--key--bg--held: var(--color-06);
+        --color--key--bg--held: var(--color-01);
 
         /* end of direct colour assignments */
 
@@ -177,7 +177,7 @@ draw_config:
     /* color accent for held keys */
     rect.held, rect.combo.held {
         fill: var(--color--trans--bg);
-        opacity: 0.75
+        opacity: 0.15
     }
 
     /* combos     */
