@@ -78,21 +78,7 @@ svg.keymap {
 
     /* === define colours === */
 
-    /* legacy */
-    --color--material--blue-gray--050: rgb(236, 239, 241);
-    --color--material--blue-gray--100: rgb(207, 216, 220);
-    --color--material--blue-gray--500: rgb(96, 125, 139);
-    --color--material--blue-gray--900: rgb(38, 50, 56);
-    --color--material--purple--050: rgb(243, 229, 245);
-    --color--material--purple--100: rgb(225, 190, 231);
-    --color--material--purple--200: rgb(206, 147, 216);
-
-    /* autumn */
-    --color--autumn--01-lght: rgb(215,162,0);
-    --color--autumn--02-lght: rgb(197,101,0);
-    --color--autumn--03-medm: rgb(140,0,0);
-    --color--autumn--04-dark: rgb(96,0,0);
-    --color--autumn--05-dark: rgb(77,39,0);
+    /* from https://coolors.co/palettes/popular/6%20colors */
 
     /* bennaton */
     --bistre: rgb(54, 28, 14);
