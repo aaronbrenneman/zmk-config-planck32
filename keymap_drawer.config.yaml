@@ -56,6 +56,8 @@ draw_config:
 
         /* === Colors === */
 
+        --color--bg: transparent;
+
         --color--material--blue-gray--050: rgb(236, 239, 241);
         --color--material--blue-gray--100: rgb(207, 216, 220);
         --color--material--blue-gray--500: rgb(96, 125, 139);
@@ -65,12 +67,11 @@ draw_config:
         --color--material--purple--100: rgb(225, 190, 231);
         --color--material--purple--200: rgb(206, 147, 216);
 
-        --color--bg: transparent;
-        --color--text: var(--color--material--blue-gray--500);
+        --color--text: var(--color--material--blue-gray--900);
 
         --color--layer--text: var(--color--material--blue-gray--500);
 
-        --color--key--bg: var(--color--material--blue-gray--050);
+        --color--key--bg: var(--color--material--blue-gray--100);
         --color--key--border: white;
         --color--key--text--tap: var(--color--text);
         --color--key--text--shifted: transparent;
@@ -83,17 +84,17 @@ draw_config:
         --color--combo--text--shifted: var(--color--material--blue-gray--500);
         --color--combo--text--hold: var(--color--combo--text--tap);
 
-        --color--trans--bg: transparent;
+        --color--trans--bg: var(--color--material--purple--200);
         --color--trans--border: var(--color--trans--bg);
         --color--trans--text--tap: var(--color--text);
         --color--trans--text--shifted: var(--color--trans--text--tap);
         --color--trans--text--hold: var(--color--trans--text--tap);
 
-        --color--none--bg: var(--color--trans--bg);
-        --color--none--border: var(--color--trans--border);
-        --color--none--text--tap: var(--color--trans--text--tap);
-        --color--none--text--shifted: var(--color--trans--text--shifted);
-        --color--none--text--hold: var(--color--trans--text--hold);
+        --color--none--bg: transparent;
+        --color--none--border: var(--color--none--bg);
+        --color--none--text--tap: var(--color--none--bg);
+        --color--none--text--shifted: var(--color--none--bg);
+        --color--none--text--hold: var(--color--none--bg);
 
         font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
         font-size: 18px;
@@ -187,21 +188,21 @@ draw_config:
 
     .trans,
     .none {
-      opacity: 0.1;
+      opacity: 0.9;
     }
     .trans {
-        --color--key--bg: var(--color--material--purple--200);
-        --color--key--border: var(--color--material--purple--100);
-        --color--key--text--tap: var(--color--material--purple--050);
+        --color--key--bg: var(--color--trans--bg);
+        --color--key--border: var(--color--trans--border);
+        --color--key--text--tap: var(--color--trans--text--tap);
         --color--key--text--shifted: var(--color--trans--text--shifted);
         --color--key--text--hold: var(--color--trans--text--hold);
     }
     .none {
         --color--key--bg: var(--color--none--bg);
-        --color--key--border: transparent;
-        --color--key--text--tap: transparent;
-        --color--key--text--shifted: transparent;
-        --color--key--text--hold: transparent;
+        --color--key--border: var(--color--none--border);
+        --color--key--text--tap: var(--color--none--text--tap);
+        --color--key--text--shifted: var(--color--none--text--shifted);
+        --color--key--text--hold: var(--color--none--text--hold);
     }
 
 parse_config:
