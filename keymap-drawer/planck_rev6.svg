@@ -81,7 +81,7 @@ svg.keymap {
     /* from https://coolors.co/palettes/popular/6%20colors */
 
     /* bennaton */
-    --bistre: rgb(54, 28, 14);
+    --bistre: rgb(54, 28, 14);x
     --chocol: rgb(87, 2, 17);
     --sienna: rgb(126, 49, 16);
     --brunsw: rgb(0, 69, 64);
@@ -99,7 +99,7 @@ svg.keymap {
     /* flipper */
     --color-01: var(--eggsh);
     --color-02: var(--sunse);
-    --color-03: var(--delft);
+    --color-03: var(--chocol);
     --color-04: var(--jaspe);
     --color-05: var(--battl);
     --color-06: var(--thstl);
@@ -114,8 +114,8 @@ svg.keymap {
 
     --color--key--bg: var(--color-01);
     --color--combo--bg: var(--color-02);
-    --color--layer--text: var(--color-03);
     --color--text: var(--color-04);
+    --color--layer--text: var(--color-04);
     --color--trans--bg: var(--color-05);
     --color--key--bg--held: var(--color-01);
 
