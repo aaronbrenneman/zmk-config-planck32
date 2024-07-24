@@ -198,7 +198,7 @@ rect.combo {
 
 /* color accent for held keys */
 rect.held, rect.combo.held {
-    fill: var(--color--key--bg--held);
+    fill: var(--color--trans--bg);
 }
 
 /* combos     */
