@@ -153,13 +153,8 @@ text.label {
     dominant-baseline: text-before-edge;
 }
 
-/* Keys */
+/* keys */
 
-/* Color accent for held keys */
-rect.held, 
-rect.combo.held {
-    fill: var(--color--material--blue-musk--000);
-}
 rect.key,
 rect.combo {
     fill: var(--color--key--bg);
@@ -180,7 +175,7 @@ rect.combo {
 }
 .hold {
     dominant-baseline: ideographic;
-    fill: var(--color--key--text--hold);
+    fill: var(--color--material--blue-musk--000);
 }
 
 /* combos     */
