@@ -66,19 +66,19 @@ draw_config:
         --color--material--purple--200: rgb(206, 147, 216);
 
         /* autumn */
-        	--color--autumn--01-lght: rgb(215,162,0);
-          --color--autumn--02-lght: rgb(197,101,0);
-          --color--autumn--03-medm: rgb(140,0,0);
-          --color--autumn--04-dark: rgb(96,0,0);
-          --color--autumn--05-dark: rgb(77,39,0);
+        --color--autumn--01-lght: rgb(215,162,0);
+        --color--autumn--02-lght: rgb(197,101,0);
+        --color--autumn--03-medm: rgb(140,0,0);
+        --color--autumn--04-dark: rgb(96,0,0);
+        --color--autumn--05-dark: rgb(77,39,0);
 
         /* flipper */
-        	--color-01: var(--color--autumn--01-lght);
-          --color-02: var(--color--autumn--02-lght);
-          --color-03: var(--color--autumn--03-medm);
-          --color-04: var(--color--autumn--04-dark);
-          --color-05: var(--color--autumn--05-dark);
-          --color-06: var(--color--material--blue-gray--050);
+        --color-01: var(--color--autumn--01-lght);
+        --color-02: var(--color--autumn--02-lght);
+        --color-03: var(--color--autumn--03-medm);
+        --color-04: var(--color--autumn--04-dark);
+        --color-05: var(--color--autumn--05-dark);
+        --color-06: var(--color--material--blue-gray--050);
 
         /* === apply colours to keys === */
 
