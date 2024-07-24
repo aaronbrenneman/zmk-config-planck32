@@ -94,13 +94,21 @@ svg.keymap {
     --color--autumn--04-dark: rgb(96,0,0);
     --color--autumn--05-dark: rgb(77,39,0);
 
+    /* bennaton */
+    --bistre: #361c0eff;
+    --chocol: #570211ff;
+    --sienna: #7e3110ff;
+    --brunsw: #004540ff;
+    --prussi: #032c4dff;
+    --dark-p: #360825ff;
+
     /* flipper */
-    --color-01: var(--color--autumn--01-lght);
-    --color-02: var(--color--autumn--02-lght);
-    --color-03: var(--color--autumn--03-medm);
-    --color-04: var(--color--autumn--04-dark);
-    --color-05: var(--color--autumn--05-dark);
-    --color-06: var(--color--material--blue-gray--050);
+    --color-01: var(bistre);
+    --color-02: var(chocol);
+    --color-03: var(sienna);
+    --color-04: var(brunsw);
+    --color-05: var(prussi);
+    --color-06: var(dark-p);
 
     /* === apply colours to keys === */
 
