@@ -131,14 +131,11 @@ draw_config:
         dominant-baseline: text-before-edge;
     }
 
-    /* Keys */
+    /* keys */
 
-    /* Color accent for held keys */
-    rect.hold, 
-    rect.combo.hold,
     rect.key,
     rect.combo {
-        fill: var(--color--material--blue-musk--000);
+        fill: var(--color--key--bg);
         stroke: var(--color--key--border);
     }
     .tap {
@@ -156,7 +153,7 @@ draw_config:
     }
     .hold {
         dominant-baseline: ideographic;
-        fill: var(--color--key--text--hold);
+        fill: var(--color--material--blue-musk--000);
     }
 
     /* combos     */
