@@ -214,7 +214,7 @@ combos:
 - p: [10, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [1, 13]
-  k: '['
+  k: {t: '[', s: '{'}
   l: [_bas, _num]
 - p: [2, 14]
   k: (
@@ -229,14 +229,12 @@ combos:
   k: )
   l: [_bas, _num]
 - p: [10, 22]
-  k: ']'
+  k: {t: ']', s: '}'}
   l: [_bas, _num]
 - p: [12, 1]
   k: Q
   l: [_bas]
   a: left
   o: -0.5
-- p: [35, 34]
+- p: [34, 33]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-- p: [24, 25]
-  k: $$mdi:apple-keyboard-shift$$
