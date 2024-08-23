@@ -10,31 +10,37 @@
 
         cb_tab {
             bindings = <&kp TAB>;
+            layers = <0 1>;
             key-positions = <1 2>;
         };
 
         cb_del {
             bindings = <&kp DEL>;
+            layers = <0 1>;
             key-positions = <40 43>;
         };
 
         cb_cntl {
             bindings = <&sk LCTRL>;
+            layers = <0 1 2>;
             key-positions = <25 26>;
         };
 
         cb_gui {
             bindings = <&sk LGUI>;
+            layers = <0 1 2>;
             key-positions = <39 40>;
         };
 
         cb_alt {
             bindings = <&sk RALT>;
+            layers = <0 1 2>;
             key-positions = <43 44>;
         };
 
         cb_bkspc {
             bindings = <&kp BSPC>;
+            layers = <0 1 2>;
             key-positions = <10 9>;
         };
 
@@ -82,6 +88,7 @@
 
         cb_shftr {
             bindings = <&sk RSHIFT>;
+            layers = <0 1>;
             key-positions = <34 33>;
         };
     };
