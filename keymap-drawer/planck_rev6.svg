@@ -438,8 +438,8 @@ path.combo {
 </g>
 <g transform="translate(493, 203)" class="key keypos-44">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<a href="#num">
-<text x="0" y="0" class="key tap layer-activator">_num</text>
+<a href="#nav">
+<text x="0" y="0" class="key tap layer-activator">_nav</text>
 </a></g>
 <g transform="translate(551, 203)" class="key none keypos-45">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
@@ -719,8 +719,9 @@ path.combo {
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(493, 203)" class="key held alternate keypos-44">
-<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key held alternate"/>
+<g transform="translate(493, 203)" class="key trans keypos-44">
+<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(551, 203)" class="key none keypos-45">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
@@ -980,11 +981,11 @@ path.combo {
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(493, 203)" class="key keypos-44">
-<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
+<g transform="translate(493, 203)" class="key held keypos-44">
+<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key held"/>
 <a href="#fun">
-<text x="0" y="0" class="key tap layer-activator">_fun</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="5" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
+<text x="0" y="0" class="key held tap layer-activator">_fun</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="5" height="18" width="18.0" class="key held hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(551, 203)" class="key none keypos-45">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
